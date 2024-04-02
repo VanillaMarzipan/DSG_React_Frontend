@@ -1,0 +1,5811 @@
+{
+  "name": "Nike Women's Tempo Dry Core 3'' Running Shorts",
+  "styleVariants": [
+    {
+      "color": "Ashen Slate",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Ashen_Slate?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 21711143,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Ashen_Slate_swatch?DSG_PDPSwatch$",
+          "value": "Ashen Slate"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "DB4487SU21H",
+      "styleDescription": "SU21 TEMPO HTR SHORT",
+      "upc": [
+        "194957241101"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Atmosphere Grey/Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Heather?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 19324128,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Heather_swatch?DSG_PDPSwatch$",
+          "value": "Atmosphere Grey/Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558SP19H",
+      "styleDescription": "TEMPO - HEATHERIZED",
+      "upc": [
+        "091208580135"
+      ],
+      "onlineInventory": 0,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058090,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237572816"
+      ],
+      "onlineInventory": 8623,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058091,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237572823"
+      ],
+      "onlineInventory": 3776,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pomegranate",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22179961,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate_swatch?DSG_PDPSwatch$",
+          "value": "Pomegranate"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890HO21",
+      "styleDescription": "FASHION TEMPO SHORT",
+      "upc": [
+        "195243217046"
+      ],
+      "onlineInventory": 40,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pomegranate",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22179967,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate_swatch?DSG_PDPSwatch$",
+          "value": "Pomegranate"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890HO21",
+      "styleDescription": "FASHION TEMPO SHORT",
+      "upc": [
+        "195243217077"
+      ],
+      "onlineInventory": 13,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mineral Clay",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441361,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay_swatch?DSG_PDPSwatch$",
+          "value": "Mineral Clay"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150358"
+      ],
+      "onlineInventory": 217,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mineral Clay",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441388,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay_swatch?DSG_PDPSwatch$",
+          "value": "Mineral Clay"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150389"
+      ],
+      "onlineInventory": 213,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mineral Clay",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441399,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay_swatch?DSG_PDPSwatch$",
+          "value": "Mineral Clay"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150396"
+      ],
+      "onlineInventory": 208,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pro Green",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441471,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green_swatch?DSG_PDPSwatch$",
+          "value": "Pro Green"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150433"
+      ],
+      "onlineInventory": 79,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Washed Teal",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441485,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal_swatch?DSG_PDPSwatch$",
+          "value": "Washed Teal"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150655"
+      ],
+      "onlineInventory": 648,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Washed Teal",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441493,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal_swatch?DSG_PDPSwatch$",
+          "value": "Washed Teal"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150662"
+      ],
+      "onlineInventory": 1486,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Washed Teal",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441500,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal_swatch?DSG_PDPSwatch$",
+          "value": "Washed Teal"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150686"
+      ],
+      "onlineInventory": 1557,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Marina",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441521,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina_swatch?DSG_PDPSwatch$",
+          "value": "Marina"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150778"
+      ],
+      "onlineInventory": 2397,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Marina",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441532,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina_swatch?DSG_PDPSwatch$",
+          "value": "Marina"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150792"
+      ],
+      "onlineInventory": 731,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058093,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Obsidian/Diff Blue/W Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237987986"
+      ],
+      "onlineInventory": 3211,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058097,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Obsidian/Diff Blue/W Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237988020"
+      ],
+      "onlineInventory": 2509,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Copa",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024519,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White_swatch?DSG_PDPSwatch$",
+          "value": "Copa/White"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988051"
+      ],
+      "onlineInventory": 1092,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024522,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988143"
+      ],
+      "onlineInventory": 217,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024525,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988174"
+      ],
+      "onlineInventory": 875,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22029012,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988198"
+      ],
+      "onlineInventory": 320,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058147,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195240666748"
+      ],
+      "onlineInventory": 712,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Magic Ember",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22029016,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195240666908"
+      ],
+      "onlineInventory": 6,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Medium Olive",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441444,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive_swatch?DSG_PDPSwatch$",
+          "value": "Medium Olive"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195242430941"
+      ],
+      "onlineInventory": 1513,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Jade Smoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Jade_Smoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22180039,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Jade_Smoke_swatch?DSG_PDPSwatch$",
+          "value": "Jade Smoke"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890HO21H",
+      "styleDescription": "FASHION HTHR TEMPO SHORT",
+      "upc": [
+        "195243216087"
+      ],
+      "onlineInventory": 14,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Atmosphere Grey/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22280585,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Atmosphere Grey/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "DB4487SU21H",
+      "styleDescription": "SU21 TEMPO HTR SHORT",
+      "upc": [
+        "194498107973"
+      ],
+      "onlineInventory": 145,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925058,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108017"
+      ],
+      "onlineInventory": 3744,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Blk/White/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289846,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617731"
+      ],
+      "onlineInventory": 8133,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Black/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289838,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Black/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617779"
+      ],
+      "onlineInventory": 7844,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Anthracite/White/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Anthracite_White_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289833,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Anthracite_White_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Anthracite/White/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911769850"
+      ],
+      "onlineInventory": 7293,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "White/White/Whi/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289874,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "White/White/Whi/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911770085"
+      ],
+      "onlineInventory": 7632,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Game Royal/Wh/Wh/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289852,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Game Royal/Wh/Wh/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911876985"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Court Purple/Wh/Wh/Wolf G",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291699,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G_swatch?DSG_PDPSwatch$",
+          "value": "Court Purple/Wh/Wh/Wolf G"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911877166"
+      ],
+      "onlineInventory": 152,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Curry",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630102,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry_swatch?DSG_PDPSwatch$",
+          "value": "Light Curry"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "CZ2857SP22HX",
+      "styleDescription": "TEMPO SHORT FASHION PLUS",
+      "upc": [
+        "195866112254"
+      ],
+      "onlineInventory": 186,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18168214,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "887226414794"
+      ],
+      "onlineInventory": 1316,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18168217,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "887226414824"
+      ],
+      "onlineInventory": 1298,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Black/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18818406,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Black/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "887232471408"
+      ],
+      "onlineInventory": 1780,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sport Red/W/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18818410,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Sport Red/W/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "887232488840"
+      ],
+      "onlineInventory": 515,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke/Htr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18649765,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Htr"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558H",
+      "styleDescription": "TEMPO HEATHERIZED",
+      "upc": [
+        "888413823177"
+      ],
+      "onlineInventory": 1121,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/White/Sport Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17462155,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red_swatch?DSG_PDPSwatch$",
+          "value": "Black/White/Sport Red"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558SU17",
+      "styleDescription": "TEMPO SHORT",
+      "upc": [
+        "888507471666"
+      ],
+      "onlineInventory": 211,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Active Pink",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441638,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Active Pink/Doll/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151157"
+      ],
+      "onlineInventory": 214,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Active Pink",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441645,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Active Pink/Doll/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151171"
+      ],
+      "onlineInventory": 1006,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Washed Teal",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630088,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal_swatch?DSG_PDPSwatch$",
+          "value": "Washed Teal"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "CZ2857SP22HX",
+      "styleDescription": "TEMPO SHORT FASHION PLUS",
+      "upc": [
+        "195866111899"
+      ],
+      "onlineInventory": 139,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Blk/White/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289844,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617496"
+      ],
+      "onlineInventory": 13239,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Blk/Whit/Viv Pink/Wolf Gr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291692,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr_swatch?DSG_PDPSwatch$",
+          "value": "Blk/Whit/Viv Pink/Wolf Gr"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911692400"
+      ],
+      "onlineInventory": 590,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Anthracite/White/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Anthracite_White_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289835,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Anthracite_White_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Anthracite/White/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911769959"
+      ],
+      "onlineInventory": 2191,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Game Royal/Wh/Wh/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289849,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Game Royal/Wh/Wh/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911876954"
+      ],
+      "onlineInventory": 2577,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18870071,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "887232471392"
+      ],
+      "onlineInventory": 263,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke/Htr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18649769,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Htr"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558H",
+      "styleDescription": "TEMPO HEATHERIZED",
+      "upc": [
+        "888413823214"
+      ],
+      "onlineInventory": 281,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/White/Sport Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17462154,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red_swatch?DSG_PDPSwatch$",
+          "value": "Black/White/Sport Red"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558SU17",
+      "styleDescription": "TEMPO SHORT",
+      "upc": [
+        "888507471659"
+      ],
+      "onlineInventory": 119,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sport Red/W/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289856,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Sport Red/W/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "888507478061"
+      ],
+      "onlineInventory": 1222,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058087,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237986873"
+      ],
+      "onlineInventory": 2913,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Rattan",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024577,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan_swatch?DSG_PDPSwatch$",
+          "value": "Rattan"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987399"
+      ],
+      "onlineInventory": 11,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Copa",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024518,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White_swatch?DSG_PDPSwatch$",
+          "value": "Copa/White"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988044"
+      ],
+      "onlineInventory": 472,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Cedar",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Cedar_Heather?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024543,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Cedar_Heather_swatch?DSG_PDPSwatch$",
+          "value": "Cedar Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988433"
+      ],
+      "onlineInventory": 18,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Medium Olive",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441418,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive_swatch?DSG_PDPSwatch$",
+          "value": "Medium Olive"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195242430910"
+      ],
+      "onlineInventory": 959,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Medium Olive",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441436,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive_swatch?DSG_PDPSwatch$",
+          "value": "Medium Olive"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195242430934"
+      ],
+      "onlineInventory": 2689,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630079,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "CZ2857XH",
+      "styleDescription": "TEMPO SHORT HTR PLUS",
+      "upc": [
+        "195242435526"
+      ],
+      "onlineInventory": 29,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22059128,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "CZ2857XFA21",
+      "styleDescription": "FASHION H TEMPO PLUS",
+      "upc": [
+        "195242436189"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Fuchsia Glow",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Fuchsia_Glow?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22279369,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Fuchsia_Glow_swatch?DSG_PDPSwatch$",
+          "value": "Black/Fuchsia Glow"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SU21",
+      "styleDescription": "SU21 TEMPO SHORT",
+      "upc": [
+        "194957209019"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058088,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237572793"
+      ],
+      "onlineInventory": 3396,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Amethyst Smoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Amethyst_Smoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024538,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Amethyst_Smoke_swatch?DSG_PDPSwatch$",
+          "value": "Amethyst Smoke"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237573172"
+      ],
+      "onlineInventory": 7,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pomegranate",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22179969,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate_swatch?DSG_PDPSwatch$",
+          "value": "Pomegranate"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890HO21",
+      "styleDescription": "FASHION TEMPO SHORT",
+      "upc": [
+        "195243217084"
+      ],
+      "onlineInventory": 16,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mineral Clay",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441367,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay_swatch?DSG_PDPSwatch$",
+          "value": "Mineral Clay"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150365"
+      ],
+      "onlineInventory": 302,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mineral Clay",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441380,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mineral_Clay_swatch?DSG_PDPSwatch$",
+          "value": "Mineral Clay"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150372"
+      ],
+      "onlineInventory": 327,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Marina",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441517,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina_swatch?DSG_PDPSwatch$",
+          "value": "Marina"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150761"
+      ],
+      "onlineInventory": 1514,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sangria",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441558,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria_swatch?DSG_PDPSwatch$",
+          "value": "Sangria"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151027"
+      ],
+      "onlineInventory": 1278,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mystic Hibiscus",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441614,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus_swatch?DSG_PDPSwatch$",
+          "value": "Mystic Hibiscus"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151133"
+      ],
+      "onlineInventory": 273,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Curry",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441669,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry_swatch?DSG_PDPSwatch$",
+          "value": "Light Curry"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151287"
+      ],
+      "onlineInventory": 2043,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Atmosphere Grey/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22280583,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Atmosphere Grey/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "DB4487SU21H",
+      "styleDescription": "SU21 TEMPO HTR SHORT",
+      "upc": [
+        "194498107959"
+      ],
+      "onlineInventory": 1641,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925063,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108062"
+      ],
+      "onlineInventory": 569,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925078,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108079"
+      ],
+      "onlineInventory": 9205,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925084,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108109"
+      ],
+      "onlineInventory": 3606,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925086,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108116"
+      ],
+      "onlineInventory": 2143,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925068,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian_swatch?DSG_PDPSwatch$",
+          "value": "Obsid Heather/Obsidian"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108505"
+      ],
+      "onlineInventory": 603,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Orewood Barn",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Orewood_Barn?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23478271,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Orewood_Barn_swatch?DSG_PDPSwatch$",
+          "value": "Light Orewood Barn"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890HO21",
+      "styleDescription": "FASHION TEMPO SHORT",
+      "upc": [
+        "195243215431"
+      ],
+      "onlineInventory": 12,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Chile Red/Chile Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23289242,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Chile Red/Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988686"
+      ],
+      "onlineInventory": 259,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 19346939,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558H",
+      "styleDescription": "TEMPO HEATHERIZED",
+      "upc": [
+        "091208573977"
+      ],
+      "onlineInventory": 2203,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Fuchsia Glow",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Fuchsia_Glow?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22279365,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Fuchsia_Glow_swatch?DSG_PDPSwatch$",
+          "value": "Black/Fuchsia Glow"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SU21",
+      "styleDescription": "SU21 TEMPO SHORT",
+      "upc": [
+        "194957208982"
+      ],
+      "onlineInventory": 57,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Rattan",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024574,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan_swatch?DSG_PDPSwatch$",
+          "value": "Rattan"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987382"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Rattan",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024579,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan_swatch?DSG_PDPSwatch$",
+          "value": "Rattan"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987405"
+      ],
+      "onlineInventory": 64,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23288949,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987580"
+      ],
+      "onlineInventory": 93,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23288953,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987627"
+      ],
+      "onlineInventory": 151,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024536,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987672"
+      ],
+      "onlineInventory": 680,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058095,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Obsidian/Diff Blue/W Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237988006"
+      ],
+      "onlineInventory": 8274,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058096,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Obsidian/Diff Blue/W Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237988013"
+      ],
+      "onlineInventory": 4954,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Copa",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024517,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White_swatch?DSG_PDPSwatch$",
+          "value": "Copa/White"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988037"
+      ],
+      "onlineInventory": 259,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024524,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988167"
+      ],
+      "onlineInventory": 916,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024526,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988181"
+      ],
+      "onlineInventory": 562,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pink Glaze",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pink_Glaze?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23289164,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pink_Glaze_swatch?DSG_PDPSwatch$",
+          "value": "Pink Glaze"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988426"
+      ],
+      "onlineInventory": 34,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Magic Ember",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024560,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988990"
+      ],
+      "onlineInventory": 61,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Magic Ember",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024567,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237989027"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22059131,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "2X"
+        }
+      ],
+      "styleNumber": "CZ2857XFA21",
+      "styleDescription": "FASHION H TEMPO PLUS",
+      "upc": [
+        "195242436196"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Washed Teal",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630092,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal_swatch?DSG_PDPSwatch$",
+          "value": "Washed Teal"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "2X"
+        }
+      ],
+      "styleNumber": "CZ2857SP22HX",
+      "styleDescription": "TEMPO SHORT FASHION PLUS",
+      "upc": [
+        "195866111905"
+      ],
+      "onlineInventory": 30,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Curry",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630105,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry_swatch?DSG_PDPSwatch$",
+          "value": "Light Curry"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "2X"
+        }
+      ],
+      "styleNumber": "CZ2857SP22HX",
+      "styleDescription": "TEMPO SHORT FASHION PLUS",
+      "upc": [
+        "195866112261"
+      ],
+      "onlineInventory": 86,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sangria",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441553,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria_swatch?DSG_PDPSwatch$",
+          "value": "Sangria"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151010"
+      ],
+      "onlineInventory": 766,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sangria",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441573,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria_swatch?DSG_PDPSwatch$",
+          "value": "Sangria"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151041"
+      ],
+      "onlineInventory": 227,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mystic Hibiscus",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441594,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus_swatch?DSG_PDPSwatch$",
+          "value": "Mystic Hibiscus"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151102"
+      ],
+      "onlineInventory": 113,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mystic Hibiscus",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441602,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus_swatch?DSG_PDPSwatch$",
+          "value": "Mystic Hibiscus"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151119"
+      ],
+      "onlineInventory": 256,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Curry",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441660,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry_swatch?DSG_PDPSwatch$",
+          "value": "Light Curry"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151256"
+      ],
+      "onlineInventory": 750,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925060,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108031"
+      ],
+      "onlineInventory": 7157,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925081,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108093"
+      ],
+      "onlineInventory": 11287,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925070,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian_swatch?DSG_PDPSwatch$",
+          "value": "Obsid Heather/Obsidian"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108512"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/White",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 19160954,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "2X"
+        }
+      ],
+      "styleNumber": "847761X",
+      "styleDescription": "TEMPO SHORT",
+      "upc": [
+        "823229107745"
+      ],
+      "onlineInventory": 10,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Black/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289840,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Black/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617908"
+      ],
+      "onlineInventory": 15617,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Black/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289841,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Black/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617915"
+      ],
+      "onlineInventory": 7712,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Blk/Whit/Viv Pink/Wolf Gr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291690,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr_swatch?DSG_PDPSwatch$",
+          "value": "Blk/Whit/Viv Pink/Wolf Gr"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911687970"
+      ],
+      "onlineInventory": 128,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "White/White/Whi/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289870,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "White/White/Whi/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911769980"
+      ],
+      "onlineInventory": 1584,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Dark Obsidian/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291702,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Dark Obsidian/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911876299"
+      ],
+      "onlineInventory": 123,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Game Royal/Wh/Wh/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289850,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Game Royal/Wh/Wh/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911876961"
+      ],
+      "onlineInventory": 319,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Game Royal/Wh/Wh/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289854,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Game Royal/Wh/Wh/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911877029"
+      ],
+      "onlineInventory": 921,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke/Htr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18649767,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Htr"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558H",
+      "styleDescription": "TEMPO HEATHERIZED",
+      "upc": [
+        "888413823191"
+      ],
+      "onlineInventory": 87,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/White/Sport Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17462157,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red_swatch?DSG_PDPSwatch$",
+          "value": "Black/White/Sport Red"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558SU17",
+      "styleDescription": "TEMPO SHORT",
+      "upc": [
+        "888507471680"
+      ],
+      "onlineInventory": 67,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Active Pink",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441655,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Active Pink/Doll/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151195"
+      ],
+      "onlineInventory": 160,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Active Pink",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_ACTIVE_PINK_BLACK?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630073,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_ACTIVE_PINK_BLACK_swatch?DSG_PDPSwatch$",
+          "value": "ACTIVE PINK/BLACK"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "CZ2857SP22X",
+      "styleDescription": "TEMPO SHORT FASHION PLUS",
+      "upc": [
+        "195866112223"
+      ],
+      "onlineInventory": 2,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925059,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108024"
+      ],
+      "onlineInventory": 6096,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925062,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108055"
+      ],
+      "onlineInventory": 1505,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925080,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108086"
+      ],
+      "onlineInventory": 15297,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925089,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather-1_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108123"
+      ],
+      "onlineInventory": 397,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925076,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian_swatch?DSG_PDPSwatch$",
+          "value": "Obsid Heather/Obsidian"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108543"
+      ],
+      "onlineInventory": 39,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Citron Pulse",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 21711112,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse_swatch?DSG_PDPSwatch$",
+          "value": "Citron Pulse"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SU21",
+      "styleDescription": "SU21 TEMPO SHORT",
+      "upc": [
+        "194957209583"
+      ],
+      "onlineInventory": 46,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Citron Pulse",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 21711113,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse_swatch?DSG_PDPSwatch$",
+          "value": "Citron Pulse"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SU21",
+      "styleDescription": "SU21 TEMPO SHORT",
+      "upc": [
+        "194957209590"
+      ],
+      "onlineInventory": 57,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Citron Pulse",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 21711114,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse_swatch?DSG_PDPSwatch$",
+          "value": "Citron Pulse"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SU21",
+      "styleDescription": "SU21 TEMPO SHORT",
+      "upc": [
+        "194957209606"
+      ],
+      "onlineInventory": 7,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058083,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237986835"
+      ],
+      "onlineInventory": 4246,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058084,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237986842"
+      ],
+      "onlineInventory": 9137,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058086,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237986866"
+      ],
+      "onlineInventory": 5438,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23288950,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987597"
+      ],
+      "onlineInventory": 283,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23288951,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987603"
+      ],
+      "onlineInventory": 444,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024535,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987665"
+      ],
+      "onlineInventory": 888,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Copa",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024520,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White_swatch?DSG_PDPSwatch$",
+          "value": "Copa/White"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988068"
+      ],
+      "onlineInventory": 819,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Venice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024523,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Venice_swatch?DSG_PDPSwatch$",
+          "value": "Venice"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988150"
+      ],
+      "onlineInventory": 480,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pink Glaze",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pink_Glaze?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23289163,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pink_Glaze_swatch?DSG_PDPSwatch$",
+          "value": "Pink Glaze"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988419"
+      ],
+      "onlineInventory": 41,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Cedar",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Cedar_Heather?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024546,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Cedar_Heather_swatch?DSG_PDPSwatch$",
+          "value": "Cedar Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988464"
+      ],
+      "onlineInventory": 14,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22066703,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195240666779"
+      ],
+      "onlineInventory": 363,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058146,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Obsidian/Diff Blue/W Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195240666809"
+      ],
+      "onlineInventory": 1032,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Jade Smoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Jade_Smoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22180042,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Jade_Smoke_swatch?DSG_PDPSwatch$",
+          "value": "Jade Smoke"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890HO21H",
+      "styleDescription": "FASHION HTHR TEMPO SHORT",
+      "upc": [
+        "195244339594"
+      ],
+      "onlineInventory": 27,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pro Green",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441476,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green_swatch?DSG_PDPSwatch$",
+          "value": "Pro Green"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150440"
+      ],
+      "onlineInventory": 8,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Washed Teal",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441495,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal_swatch?DSG_PDPSwatch$",
+          "value": "Washed Teal"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150679"
+      ],
+      "onlineInventory": 2604,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Marina",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441510,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina_swatch?DSG_PDPSwatch$",
+          "value": "Marina"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150754"
+      ],
+      "onlineInventory": 660,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Marina",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441528,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Marina_swatch?DSG_PDPSwatch$",
+          "value": "Marina"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150785"
+      ],
+      "onlineInventory": 1481,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sangria",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441570,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria_swatch?DSG_PDPSwatch$",
+          "value": "Sangria"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151034"
+      ],
+      "onlineInventory": 796,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mystic Hibiscus",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441622,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus_swatch?DSG_PDPSwatch$",
+          "value": "Mystic Hibiscus"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151140"
+      ],
+      "onlineInventory": 89,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Curry",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441666,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry_swatch?DSG_PDPSwatch$",
+          "value": "Light Curry"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151270"
+      ],
+      "onlineInventory": 3184,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Curry",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441675,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry_swatch?DSG_PDPSwatch$",
+          "value": "Light Curry"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151294"
+      ],
+      "onlineInventory": 911,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/White",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 19160953,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "847761X",
+      "styleDescription": "TEMPO SHORT",
+      "upc": [
+        "823229104560"
+      ],
+      "onlineInventory": 68,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Blk/White/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289845,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617557"
+      ],
+      "onlineInventory": 14805,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Black/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289839,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Black/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617892"
+      ],
+      "onlineInventory": 15250,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Black/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289842,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Black_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Black/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617922"
+      ],
+      "onlineInventory": 5483,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "White/White/Whi/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289871,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "White/White/Whi/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911770061"
+      ],
+      "onlineInventory": 5313,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "White/White/Whi/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289877,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "White/White/Whi/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911770092"
+      ],
+      "onlineInventory": 5125,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Dark Obsidian/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291700,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Dark Obsidian/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911876275"
+      ],
+      "onlineInventory": 2686,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Dark Obsidian/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291701,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Dark Obsidian/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911876282"
+      ],
+      "onlineInventory": 1767,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Court Purple/Wh/Wh/Wolf G",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291697,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G_swatch?DSG_PDPSwatch$",
+          "value": "Court Purple/Wh/Wh/Wolf G"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911877142"
+      ],
+      "onlineInventory": 129,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18168213,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "887226414787"
+      ],
+      "onlineInventory": 1406,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18168216,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "887226414817"
+      ],
+      "onlineInventory": 320,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Blk/White/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18818405,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "887232471385"
+      ],
+      "onlineInventory": 924,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke/Htr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18649766,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Htr"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558H",
+      "styleDescription": "TEMPO HEATHERIZED",
+      "upc": [
+        "888413823184"
+      ],
+      "onlineInventory": 27,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke/Htr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18649768,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Htr_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Htr"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558H",
+      "styleDescription": "TEMPO HEATHERIZED",
+      "upc": [
+        "888413823207"
+      ],
+      "onlineInventory": 16,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/White/Sport Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17462153,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red_swatch?DSG_PDPSwatch$",
+          "value": "Black/White/Sport Red"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558SU17",
+      "styleDescription": "TEMPO SHORT",
+      "upc": [
+        "888507471642"
+      ],
+      "onlineInventory": 32,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sport Red/W/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289858,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Sport Red/W/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "888507478078"
+      ],
+      "onlineInventory": 2358,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sport Red/W/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289863,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Sport Red/W/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "888507478092"
+      ],
+      "onlineInventory": 138,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Chile Red/Chile Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23289239,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Chile Red/Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988655"
+      ],
+      "onlineInventory": 322,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Chile Red/Chile Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23289240,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Chile Red/Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988662"
+      ],
+      "onlineInventory": 810,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Active Pink",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441643,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Active Pink/Doll/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151164"
+      ],
+      "onlineInventory": 602,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Black?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630089,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Black_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Black"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "CZ2857XH",
+      "styleDescription": "TEMPO SHORT HTR PLUS",
+      "upc": [
+        "195242435557"
+      ],
+      "onlineInventory": 2,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Citron Pulse",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 21711116,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Citron_Pulse_swatch?DSG_PDPSwatch$",
+          "value": "Citron Pulse"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SU21",
+      "styleDescription": "SU21 TEMPO SHORT",
+      "upc": [
+        "194957209620"
+      ],
+      "onlineInventory": 17,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Blk/White/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289843,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911556740"
+      ],
+      "onlineInventory": 6689,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/Blk/White/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289847,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Blk_White_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black/Blk/White/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911617748"
+      ],
+      "onlineInventory": 2535,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Blk/Whit/Viv Pink/Wolf Gr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291691,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr_swatch?DSG_PDPSwatch$",
+          "value": "Blk/Whit/Viv Pink/Wolf Gr"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911690628"
+      ],
+      "onlineInventory": 939,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Blk/Whit/Viv Pink/Wolf Gr",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291693,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Blk_Whit_Viv_Pink_Wolf_Gr_swatch?DSG_PDPSwatch$",
+          "value": "Blk/Whit/Viv Pink/Wolf Gr"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911692424"
+      ],
+      "onlineInventory": 3,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Anthracite/White/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Anthracite_White_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289832,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Anthracite_White_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Anthracite/White/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911769799"
+      ],
+      "onlineInventory": 5991,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "White/White/Whi/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289880,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "White/White/Whi/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911770184"
+      ],
+      "onlineInventory": 5957,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Dark Obsidian/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291704,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Dark_Obsidian_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Dark Obsidian/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911876732"
+      ],
+      "onlineInventory": 32,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Game Royal/Wh/Wh/Wolf Gre",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289848,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Game_Royal_Wh_Wh_Wolf_Gre_swatch?DSG_PDPSwatch$",
+          "value": "Game Royal/Wh/Wh/Wolf Gre"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "675911876947"
+      ],
+      "onlineInventory": 2904,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Court Purple/Wh/Wh/Wolf G",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291695,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G_swatch?DSG_PDPSwatch$",
+          "value": "Court Purple/Wh/Wh/Wolf G"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911877067"
+      ],
+      "onlineInventory": 318,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Court Purple/Wh/Wh/Wolf G",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17291696,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Court_Purple_Wh_Wh_Wolf_G_swatch?DSG_PDPSwatch$",
+          "value": "Court Purple/Wh/Wh/Wolf G"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "675911877074"
+      ],
+      "onlineInventory": 236,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "White/Atmosphere Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_Atmosphere_Grey-1?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 19801468,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_Atmosphere_Grey-1_swatch?DSG_PDPSwatch$",
+          "value": "White/Atmosphere Grey"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "1X"
+        }
+      ],
+      "styleNumber": "847761FA19X",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "885179887412"
+      ],
+      "onlineInventory": 151,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pomegranate",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22179963,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate_swatch?DSG_PDPSwatch$",
+          "value": "Pomegranate"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890HO21",
+      "styleDescription": "FASHION TEMPO SHORT",
+      "upc": [
+        "195243217053"
+      ],
+      "onlineInventory": 93,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pomegranate",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22179964,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pomegranate_swatch?DSG_PDPSwatch$",
+          "value": "Pomegranate"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890HO21",
+      "styleDescription": "FASHION TEMPO SHORT",
+      "upc": [
+        "195243217060"
+      ],
+      "onlineInventory": 121,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pro Green",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441460,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green_swatch?DSG_PDPSwatch$",
+          "value": "Pro Green"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150402"
+      ],
+      "onlineInventory": 26,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pro Green",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441463,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green_swatch?DSG_PDPSwatch$",
+          "value": "Pro Green"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150419"
+      ],
+      "onlineInventory": 90,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Pro Green",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441469,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Pro_Green_swatch?DSG_PDPSwatch$",
+          "value": "Pro Green"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150426"
+      ],
+      "onlineInventory": 151,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Washed Teal",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441502,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Washed_Teal_swatch?DSG_PDPSwatch$",
+          "value": "Washed Teal"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245150693"
+      ],
+      "onlineInventory": 800,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sangria",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441546,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sangria_swatch?DSG_PDPSwatch$",
+          "value": "Sangria"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151003"
+      ],
+      "onlineInventory": 220,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Mystic Hibiscus",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441611,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Mystic_Hibiscus_swatch?DSG_PDPSwatch$",
+          "value": "Mystic Hibiscus"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151126"
+      ],
+      "onlineInventory": 445,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Light Curry",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441662,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Light_Curry_swatch?DSG_PDPSwatch$",
+          "value": "Light Curry"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151263"
+      ],
+      "onlineInventory": 1900,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18168215,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558Z",
+      "styleDescription": "TEMPO - FASHION",
+      "upc": [
+        "887226414800"
+      ],
+      "onlineInventory": 414,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "White/White/Whi/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 18818408,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_White_White_Whi_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "White/White/Whi/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "887232471460"
+      ],
+      "onlineInventory": 1193,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black/White/Sport Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17462156,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_White_Sport_Red_swatch?DSG_PDPSwatch$",
+          "value": "Black/White/Sport Red"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "831558SU17",
+      "styleDescription": "TEMPO SHORT",
+      "upc": [
+        "888507471673"
+      ],
+      "onlineInventory": 91,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sport Red/W/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289860,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Sport Red/W/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "888507478085"
+      ],
+      "onlineInventory": 811,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Sport Red/W/Blk/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 17289865,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Sport_Red_W_Blk_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Sport Red/W/Blk/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "831558",
+      "styleDescription": "TEMPO - CORE",
+      "upc": [
+        "888507478115"
+      ],
+      "onlineInventory": 567,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058085,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237986859"
+      ],
+      "onlineInventory": 11386,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23288952,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987610"
+      ],
+      "onlineInventory": 254,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024533,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987641"
+      ],
+      "onlineInventory": 212,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024534,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987658"
+      ],
+      "onlineInventory": 331,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Lime Ice",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024537,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Lime_Ice_swatch?DSG_PDPSwatch$",
+          "value": "Lime Ice"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237987689"
+      ],
+      "onlineInventory": 417,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058094,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsidian_Diff_Blue_W_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Obsidian/Diff Blue/W Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237987993"
+      ],
+      "onlineInventory": 6562,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Copa",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024521,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White_swatch?DSG_PDPSwatch$",
+          "value": "Copa/White"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988075"
+      ],
+      "onlineInventory": 466,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Copa",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22029014,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Copa_White_swatch?DSG_PDPSwatch$",
+          "value": "Copa/White"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988082"
+      ],
+      "onlineInventory": 201,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Cedar",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Cedar_Heather?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22024545,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Cedar_Heather_swatch?DSG_PDPSwatch$",
+          "value": "Cedar Heather"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988457"
+      ],
+      "onlineInventory": 11,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058148,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195240666731"
+      ],
+      "onlineInventory": 945,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Rattan",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22066704,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Rattan_swatch?DSG_PDPSwatch$",
+          "value": "Rattan"
+        },
+        {
+          "name": "Size",
+          "sort": 5,
+          "value": "XXL"
+        }
+      ],
+      "styleNumber": "CU8890HFA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195240666755"
+      ],
+      "onlineInventory": 19,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Medium Olive",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441428,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive_swatch?DSG_PDPSwatch$",
+          "value": "Medium Olive"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195242430927"
+      ],
+      "onlineInventory": 1917,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Medium Olive",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441450,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Medium_Olive_swatch?DSG_PDPSwatch$",
+          "value": "Medium Olive"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195242430958"
+      ],
+      "onlineInventory": 756,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22630080,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": -1,
+          "value": "2X"
+        }
+      ],
+      "styleNumber": "CZ2857XH",
+      "styleDescription": "TEMPO SHORT HTR PLUS",
+      "upc": [
+        "195242435533"
+      ],
+      "onlineInventory": 7,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Jade Smoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Jade_Smoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22180038,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Jade_Smoke_swatch?DSG_PDPSwatch$",
+          "value": "Jade Smoke"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890HO21H",
+      "styleDescription": "FASHION HTHR TEMPO SHORT",
+      "upc": [
+        "195243216070"
+      ],
+      "onlineInventory": 1,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058089,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237572809"
+      ],
+      "onlineInventory": 7326,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Black Heather",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22058092,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Black_Heather_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Black Heather/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890H",
+      "styleDescription": "CORE HEATHER TEMPO",
+      "upc": [
+        "195237572830"
+      ],
+      "onlineInventory": 1887,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Atmosphere Grey/Wolf Grey",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22280584,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Atmosphere_Grey_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Atmosphere Grey/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 1,
+          "value": "S"
+        }
+      ],
+      "styleNumber": "DB4487SU21H",
+      "styleDescription": "SU21 TEMPO HTR SHORT",
+      "upc": [
+        "194498107966"
+      ],
+      "onlineInventory": 83,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Gunsmoke",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925061,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Gunsmoke_swatch?DSG_PDPSwatch$",
+          "value": "Gunsmoke"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108048"
+      ],
+      "onlineInventory": 2238,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925065,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian_swatch?DSG_PDPSwatch$",
+          "value": "Obsid Heather/Obsidian"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "XS"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108499"
+      ],
+      "onlineInventory": 940,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Obsidian",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 20925074,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Obsid_Heather_Obsidian_swatch?DSG_PDPSwatch$",
+          "value": "Obsid Heather/Obsidian"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "DB4487H",
+      "styleDescription": "TEMPO SHORT - CORE HEATHER",
+      "upc": [
+        "194498108536"
+      ],
+      "onlineInventory": 5,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Active Pink",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 22441649,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Active_Pink_Doll_Wolf_Grey_swatch?DSG_PDPSwatch$",
+          "value": "Active Pink/Doll/Wolf Grey"
+        },
+        {
+          "name": "Size",
+          "sort": 3,
+          "value": "L"
+        }
+      ],
+      "styleNumber": "CU8890SP22H",
+      "styleDescription": "TEMPO SHORT FASHION HTR",
+      "upc": [
+        "195245151188"
+      ],
+      "onlineInventory": 605,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Chile Red/Chile Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23289241,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Chile Red/Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 2,
+          "value": "M"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988679"
+      ],
+      "onlineInventory": 757,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    },
+    {
+      "color": "Chile Red/Chile Red",
+      "displayableDate": "",
+      "imageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember?req=img&fit=constrain,1&wid=128&hei=128&fmt=png&op_sharpen=1",
+      "sku": 23289243,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "swatchColorImageUrl": "http://dks.scene7.com/is/image/dkscdn/20NIKWTMPCRXXXXXXAPB_Chile_Red_Magic_Ember_swatch?DSG_PDPSwatch$",
+          "value": "Chile Red/Magic Ember"
+        },
+        {
+          "name": "Size",
+          "sort": 4,
+          "value": "XL"
+        }
+      ],
+      "styleNumber": "CU8890FA21",
+      "styleDescription": "FASHION TEMPO",
+      "upc": [
+        "195237988693"
+      ],
+      "onlineInventory": 98,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    }
+  ],
+  "webId": "20NIKWTMPCRXXXXXXAPB"
+}

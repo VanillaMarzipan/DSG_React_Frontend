@@ -1,0 +1,144 @@
+name: $(MajorVersion).$(MinorVersion).$(Date:yy)$(DayOfYear)$(rev:.r)
+
+trigger:
+  - master
+
+variables:
+  - group: Docker Build Credentials
+
+schedules:
+  - cron: '0 0 * * *' # Midnight UTC
+    displayName: Daily midnight build
+    branches:
+      include:
+        - master
+
+stages:
+  - stage: Build_React_Artifact
+    displayName: Build and Test React Artifact
+    dependsOn: []
+    jobs:
+      - job: Build_Artifacts
+        pool:
+          name: 'Cypress Runner Kubernetes Agents'
+        strategy:
+          parallel: 3
+        workspace:
+          clean: all
+
+        steps:
+          - checkout: self
+            fetchDepth: 1
+            clean: true
+
+          - task: NodeTool@0
+            inputs:
+              versionSpec: '16.x'
+              checkLatest: true
+            displayName: 'Install Node.js'
+
+          - task: YarnInstaller@3
+            inputs:
+              versionSpec: '1.x'
+              checkLatest: true
+            displayName: 'Install Yarn'
+
+          - script: |
+              set -euo pipefail
+              
+              yarn
+            displayName: 'Install Packages'
+
+          - script: |
+              set -euo pipefail
+              
+              npx browserslist@latest --update-db
+              yarn build
+            displayName: 'Build'
+
+          - script: |
+              set -euo pipefail
+              
+              apt-get update
+              DEBIAN_FRONTEND=noninteractive apt-get install -y libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth libxi6 xvfb wget
+            displayName: 'Install Cypress Dependencies'
+
+          - script: |
+              set -euo pipefail
+              
+              yarn run lint
+            displayName: 'Code Linter'
+
+          - script: |
+              set -euo pipefail
+              
+              wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+              && sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' \
+              && apt-get update -yqq \
+              && DEBIAN_FRONTEND=noninteractive apt-get install -yqq google-chrome-stable
+            displayName: 'Install Chromium'
+            condition: in(variables['Build.Reason'], 'PullRequest', 'Scheduled')
+
+          - script: |
+              set -euo pipefail
+              
+              # yarn run tests:cypress-offline:ci
+              yarn run tests:cypress-offline:parallel
+            displayName: 'Cypress Tests'
+            condition: in(variables['Build.Reason'], 'PullRequest', 'Scheduled')
+
+          - task: CopyFiles@1
+            inputs:
+              SourceFolder: '$(System.DefaultWorkingDirectory)'
+              Contents: |
+                manifest.yml
+                mime.types
+                nginx.cloudfoundry.conf
+                buildpack.yml
+              TargetFolder: './build'
+            displayName: 'Copy Static Files'
+            
+          - script: |
+              set -euo pipefail
+              
+              mv ./build/nginx.cloudfoundry.conf ./build/nginx.conf
+            displayName: 'Set Nginx Config'
+
+          - ${{ if not(in(variables['Build.Reason'], 'PullRequest', 'Scheduled')) }}:
+            - task: PublishBuildArtifacts@1
+              inputs:
+                PathtoPublish: './build'
+              displayName: 'Publish Artifacts'
+
+  - stage: Docker_Build_And_Push
+    displayName: Docker Build and Push
+    condition: not(in(variables['Build.Reason'], 'PullRequest', 'Scheduled'))
+    dependsOn: []
+    variables:
+      - group: 'Docker Build Credentials'
+    jobs:
+      - job: Docker_Build_and_Push
+        pool:
+          name: Docker Build Server (UBTU-CS-D-1064)
+
+        steps:
+          - task: Docker@2
+            displayName: 'Docker Build - nexus.tools.dcsg.com'
+            inputs:
+              containerRegistry: 'Nexus Docker Registry'
+              repository: 'react-pos'
+              command: build
+              tags: |
+                dev-$(Build.BuildNumber)
+                latest
+              arguments: '--build-arg REACT_POS_BUILD_NUMBER=$(Build.BuildNumber)'
+
+          - task: Docker@2
+            displayName: 'Docker Push - nexus.tools.dcsg.com'
+            inputs:
+              containerRegistry: 'Nexus Docker Registry'
+              repository: 'react-pos'
+              command: push
+              tags: |
+                dev-$(Build.BuildNumber)
+                latest

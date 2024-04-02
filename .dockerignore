@@ -1,0 +1,7 @@
+.git/
+.idea/
+android/
+build/
+dist/
+ios/
+node_modules/

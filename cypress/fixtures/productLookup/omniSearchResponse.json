@@ -1,0 +1,61 @@
+{
+    "type": "Transaction",
+    "transaction": {
+        "header": {
+            "timestamp": 1656427364894,
+            "signature": "A/ikauoNIeWgjDeUlOftHkfdl3WQm3cWtz3XmdScoik=",
+            "transactionKey": "425430087923906282022",
+            "tenderIdentifier": "1-425430087923906282022",
+            "eReceiptKey": "5008792390046062822011",
+            "storeNumber": 879,
+            "registerNumber": 239,
+            "transactionNumber": 46,
+            "startDateTime": "2022-06-28T14:42:44.734278Z",
+            "transactionDate": "2022-06-28T00:00:00",
+            "timezoneOffset": -240,
+            "associateId": "1234567",
+            "transactionType": 1,
+            "transactionTypeDescription": "Sale",
+            "transactionStatus": 1,
+            "transactionStatusDescription": "Active"
+        },
+        "items": [{
+            "upc": "887226414794",
+            "sku": "018168214",
+            "style": "831558Z",
+            "description": "Nike Women's Tempo Dry Core 3'' Running Shorts",
+            "quantity": 1,
+            "returnPrice": 32,
+            "promptForPrice": false,
+            "unitPrice": 32,
+            "referencePrice": 32,
+            "everydayPrice": 32,
+            "priceOverridden": false,
+            "originalUnitPrice": 32,
+            "variants": {
+                "Color": "Wolf Grey",
+                "Size": "S"
+            },
+            "imageUrl": "https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/20NIKWTMPCRXXXXXXAPB_Wolf_Grey?req-img&fmt=png&op_sharpen=1",
+            "nonTaxable": true,
+            "totalItemTax": 0,
+            "hierarchy": "700-024-001-004",
+            "attributes": [],
+            "appliedDiscounts": [],
+            "transactionItemIdentifier": 1,
+            "giftReceipt": false
+        }],
+        "tenders": [],
+        "coupons": [],
+        "rewardCertificates": [],
+        "receiptMessages": [],
+        "total": {
+            "subTotal": 32,
+            "tax": 0,
+            "grandTotal": 32,
+            "changeDue": 0,
+            "remainingBalance": 32
+        }
+    },
+    "upc": "887226414794"
+}

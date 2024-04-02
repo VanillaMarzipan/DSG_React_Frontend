@@ -1,0 +1,17 @@
+{
+  "product": {
+    "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+    "upc": "888830021811",
+    "sku": "018555004",
+    "style": "21070060016",
+    "vertexTaxCode": "75064",
+    "variants": {
+      "Color": "Seafoam",
+      "Capacity": "20 oz"
+    },
+    "imageUrl": "https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Seafoam?req-img&fmt=png&op_sharpen=1",
+    "hierarchy": "283-001-001-002",
+    "attributes": []
+  },
+  "returnPrice": 26.65
+}

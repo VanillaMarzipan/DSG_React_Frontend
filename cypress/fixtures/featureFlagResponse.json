@@ -1,0 +1,244 @@
+{
+  "settings": {
+    "data": [
+      {
+        "name": "expiredcoupon",
+        "description": "Threshold for manager override on an expired coupon",
+        "value": {
+          "thresholdPercent": 0.2,
+          "thresholdDisplay": "20%"
+        }
+      },
+      {
+        "name": "familynight",
+        "description": "Configuration values for Family Night sale",
+        "value": {
+          "familyNight": false,
+          "percentOff": 10,
+          "validCouponCodes": [
+            "P00046548",
+            "P00046549",
+            "P00046550",
+            "P00046551",
+            "P00046552"
+          ]
+        }
+      },
+      {
+        "name": "gettingstartedmodal",
+        "description": "values for the modal including new features, features only on ncr, etc",
+        "value": {
+          "newFeatures": [
+            "Manager Override",
+            "Nike Connected\n(Where Applicable)",
+            "Tax - Exempt Sales",
+            "CSAT on PIN Pad"
+          ],
+          "legacyExclusiveFeatures": [
+            "An Athlete Pays With a Check",
+            "Refunding to Multiple Tenders\n(Refunding to Single Tender is Supported)",
+            "Special Order Handling",
+            "Trade - In Used Products"
+          ],
+          "metricsInfo": [
+            "Use Homeplate for a quick view into store metrics.",
+            "Intera should be used for detailed store and business reporting metrics",
+            "Note: Updates to Homeplate Metrics may not be immediate."
+          ]
+        }
+      },
+      {
+        "name": "manageroverridethresholds",
+        "description": "Thresholds that trigger manager overrides",
+        "value": {
+          "expiredCoupon": 0.2,
+          "nonReceiptedReturns": 1,
+          "editItemPrice": 0.2,
+          "manualTransactionDiscount": 0.2,
+          "manualItemDiscount": 0.2
+        }
+      },
+      {
+        "name": "manualdiscount",
+        "description": "limits for transaction and item level",
+        "value": {
+          "transactionLevelPercentLimit": 10,
+          "transactionLevelDollarLimit": 10
+        }
+      },
+      {
+        "name": "nikeconnectcampaign",
+        "description": "Values for the loyalty program partnership with nike",
+        "value": {
+          "enableProductTags": true,
+          "enableLoyaltyTags": true,
+          "chitHeaderText": "LINK YOUR DSG AND NIKE ACCOUNTS",
+          "chitVerbiage": "Oops! We noticed you purchased a Nike Member Access product, but you’re not currently connected. To receive all the benefits as a Connected Member, link your DSG and Nike accounts here:",
+          "chitSignupUrl": "https://dickssportinggoods.com/s/connected?camp=DRT:NikeConnectReceiptQR:::",
+          "chitFooterText": "or go to DICKS.com/s/Connected",
+          "enableNikeChit": true
+        }
+      },
+      {
+        "name": "printer",
+        "description": "Settings for receipt printing",
+        "value": {
+          "RealTimePoints": {
+            "ShowRealTimePoints": true,
+            "OfflinePointsUrl": "DicksSportingGoods.com"
+          }
+        }
+      },
+      {
+        "name": "sportsmattercampaign",
+        "description": "campaign is active and the upc to use\t\r\n",
+        "value": {
+          "campaignActive": true,
+          "upc": "400000897646",
+          "donationOptions": "dollarAndRoundup",
+          "usePinpad": true,
+          "pinpadPrompt": "Make a donation for youth sports?",
+          "options": [
+            {
+              "key": "roundup",
+              "display": "Round up",
+              "value": -1
+            },
+            {
+              "key": "one",
+              "display": "$1",
+              "value": 1
+            },
+            {
+              "key": "five",
+              "display": "$5",
+              "value": 5
+            },
+            {
+              "key": "other",
+              "display": "Other",
+              "value": -1
+            },
+            {
+              "key": "none",
+              "display": "No Thanks",
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "storecreditgiftcardbins",
+        "description": "BIN ranges of store credit giftcards",
+        "value": {
+          "binRanges": [
+            {
+              "begin": "601024291952",
+              "end": "601024316954"
+            },
+            {
+              "begin": "601024630943",
+              "end": "601024640942"
+            },
+            {
+              "begin": "7777082371283911",
+              "end": "7777082371283911"
+            },
+            {
+              "begin": "7777082371338957",
+              "end": "7777082371338957"
+            },
+            {
+              "begin": "7777238174354701",
+              "end": "7777238174354701"
+            },
+            {
+              "begin": "7777238174072557",
+              "end": "7777238174072557"
+            },
+            {
+              "begin": "7777238174106116",
+              "end": "7777238174106116"
+            },
+            {
+              "begin": "7777238174295784",
+              "end": "7777238174295784"
+            },
+            {
+              "begin": "7777238174144198",
+              "end": "7777238174144198"
+            }
+          ]
+        }
+      },
+      {
+        "name": "SurveyConfiguration",
+        "description": "Survey Settings",
+        "value": {
+          "SurveyTimeoutSeconds": 10
+        }
+      },
+      {
+        "name": "voidfeedback",
+        "description": "Controls the void feedback modal",
+        "value": {
+          "doNotPrompt": true
+        }
+      }
+    ],
+    "success": true
+  },
+  "features": {
+    "data": [
+      "MedalliaSurvey",
+      "Credit",
+      "Suspend",
+      "ScanAndPayCoupons",
+      "CSATSurvey",
+      "Returns",
+      "AdyenGiftCardTendering",
+      "tenderKey",
+      "PostVoid",
+      "ManualCoupons",
+      "eReceipts",
+      "ReturnsAuthorization",
+      "InStoreReturns",
+      "CreditEnrollment",
+      "ScanGiftCard",
+      "ManuallyEnterGiftCard",
+      "NonReceiptedReturns",
+      "CreditLookup",
+      "GiftCardBalanceInquiry",
+      "NoSale",
+      "RewardExceedsDiscount",
+      "ConnectPinpad",
+      "SportsMatterPrompt",
+      "ItemLookup",
+      "LowestPriceInquiry",
+      "PickYourPoints",
+      "LauncherHealthChecks",
+      "RumRunner",
+      "StoreServices",
+      "LoyaltyLookupReturns",
+      "ReprintGiftReceipt",
+      "LoyaltyApartmentField",
+      "SettingsButton",
+      "PinpadStressTest",
+      "UseSportsMatterCampaignModal",
+      "AppInsights",
+      "TaxExempt",
+      "ExpiredCouponManagerOverride",
+      "EditPriceManagerOverride",
+      "GettingStartedModal",
+      "NonReceiptedReturnManagerOverride",
+      "TaxSummary",
+      "ManualItemDiscount",
+      "ManualTransactionDiscount",
+      "ComplimentaryGiftCard",
+      "PostVoidEnhancedWithLookup",
+      "PostVoidManagerOverride",
+      "TradeIns"
+    ],
+    "success": true
+  }
+}

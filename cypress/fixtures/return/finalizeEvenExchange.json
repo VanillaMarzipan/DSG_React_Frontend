@@ -1,0 +1,92 @@
+{
+  "header": {
+    "timestamp": 1651516085985,
+    "signature": "7Ha8vRIBfTow1rjY2Aseh4WdVvRVgbjh3AhzImpVUWM=",
+    "transactionKey": "46870088818705022022",
+    "tenderIdentifier": "1-46870088818705022022",
+    "eReceiptKey": "5008881870021050222046",
+    "storeNumber": 888,
+    "registerNumber": 187,
+    "transactionNumber": 21,
+    "startDateTime": "2022-05-02T18:23:25.742156Z",
+    "endDateTime": "2022-05-02T18:28:05.9735321Z",
+    "transactionDate": "2022-05-02T00:00:00",
+    "timezoneOffset": -240,
+    "associateId": "1234567",
+    "transactionType": 4,
+    "transactionTypeDescription": "Return",
+    "transactionStatus": 2,
+    "transactionStatusDescription": "Complete"
+  },
+  "originalSaleInformation": [
+    {
+      "storeNumber": 4889,
+      "registerNumber": 102,
+      "transactionNumber": 914,
+      "customerOrderNumber": "20220502048891020914",
+      "transactionDate": "2022-05-02T00:00:00+00:00",
+      "returnItems": [
+        {
+          "lineNumber": 1,
+          "sequenceNumber": 0,
+          "distributionOrderNumber": "20220502048891020914",
+          "upc": "888830050118",
+          "sku": "019824277",
+          "style": "21070060016",
+          "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -35.0,
+          "damaged": false,
+          "totalItemTax": -2.45
+        }
+      ],
+      "originalTenders": [
+        {
+          "tenderType": "Cash"
+        }
+      ],
+      "returnOriginationType": 0,
+      "returnSource": 2
+    }
+  ],
+  "items": [
+    {
+      "upc": "888830050118",
+      "sku": "019824277",
+      "style": "21070060016",
+      "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+      "quantity": 1,
+      "returnPrice": 35.0,
+      "promptForPrice": false,
+      "unitPrice": 35.0,
+      "referencePrice": 35.0,
+      "everydayPrice": 35.0,
+      "priceOverridden": false,
+      "originalUnitPrice": 35.0,
+      "variants": {
+        "Color": "Sand",
+        "Capacity": "20 oz"
+      },
+      "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1",
+      "nonTaxable": false,
+      "totalItemTax": 2.45,
+      "hierarchy": "283-001-001-002",
+      "attributes": [],
+      "appliedDiscounts": [],
+      "transactionItemIdentifier": 1,
+      "giftReceipt": false
+    }
+  ],
+  "tenders": [],
+  "coupons": [],
+  "rewardCertificates": [],
+  "receiptMessages": [],
+  "total": {
+    "subTotal": 0.0,
+    "tax": 0.0,
+    "grandTotal": 0.0,
+    "changeDue": 0.0,
+    "remainingBalance": 0.0
+  }
+}

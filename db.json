@@ -1,0 +1,221 @@
+{
+  "configuration": {
+    "storeInformation": {
+      "chainNumber": 1,
+      "chainDescription": "DICK'S Sporting Goods",
+      "number": 42,
+      "name": "Corporate",
+      "streetAddress": "345 Court Street",
+      "city": "Coraopolis",
+      "state": "PA",
+      "zipCode": "15275",
+      "phoneNumber": "724-273-3400"
+    }
+  },
+  "registerData": {
+    "registerId": "260003fb-2241-438f-92db-d9ee1eb85325",
+    "storeNumber": 42,
+    "registerNumber": 1053,
+    "state": 1,
+    "stateDescription": "Open"
+  },
+  "registerValid": {
+    "isValid": true,
+    "state": 1
+  },
+  "transactionData": {
+    "items": [
+      {
+        "transactionItemIdentifier": 1,
+        "unitPrice": 2.34,
+        "upc": "889751127996",
+        "sku": "016510954",
+        "style": "TF16XLDVRMRH",
+        "description": "TOP FLITE 2016 XL DRIVER MRH",
+        "quantity": 1,
+        "variants": {
+          "Hand": "Right Hand",
+          "Loft": "10.5°",
+          "Flex": "Regular Flex",
+          "Shaft": "Graphite"
+        },
+        "imageUrl": "https://imageservice-dev.apps.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16TFLMTPFLT2016XLDRV?req-img&fmt=png&op_sharpen=1",
+        "nonTaxable": true
+      }
+    ],
+    "tenders": [],
+    "total": {
+      "subTotal": 0.0,
+      "tax": 0.0,
+      "grandTotal": 0.0,
+      "changeDue": 0.0
+    },
+    "header": {
+      "storeNumber": 42,
+      "registerNumber": 1053,
+      "transactionNumber": 16,
+      "startDateTime": "2019-08-27T15:36:56.536793Z",
+      "timezoneOffset": -240,
+      "associateId": "1234567",
+      "transactionStatus": 1,
+      "transactionStatusDescription": "Active"
+    }
+  },
+  "associate": {
+    "associateId": "1234567",
+    "firstName": "Johnny",
+    "lastName": "Cashier"
+  },
+  "loyaltyCustomers": [
+    {
+      "id": 51881,
+      "firstName": "TEST",
+      "lastName": "ONE",
+      "emailAddress": "TEST.ONE@TEST.COM",
+      "street": "123 TEST STREET",
+      "city": "PITTSBURGH",
+      "state": "PA",
+      "zip": "15212",
+      "homePhone": "7245551212",
+      "loyalty": "900000410017",
+      "subAccount": "90000041",
+      "currentPointBalance": 0,
+      "rewardAmount": 0
+    },
+    {
+      "id": 890010,
+      "firstName": "Mitt",
+      "lastName": "Romney",
+      "emailAddress": "",
+      "street": "345 Court Street",
+      "city": "Buffalo",
+      "state": "NY",
+      "zip": "16529",
+      "homePhone": "7245551212",
+      "loyalty": "256222200012",
+      "subAccount": "25622220",
+      "currentPointBalance": 0,
+      "rewardAmount": 0
+    }
+  ],
+  "zip": [
+    {
+      "city": "WEIRTON",
+      "country": "US",
+      "fips": "54029",
+      "latitude": "40.4181",
+      "longitude": "-80.565",
+      "msa": "8080",
+      "state": "WV",
+      "zip": "26062"
+    }
+  ],
+  "features": ["Credit"],
+  "newLoyaltyAccount": {
+    "id": 0,
+    "firstName": "string",
+    "lastName": "string",
+    "emailAddress": "test2352352435@test.com",
+    "street": "string",
+    "city": "string",
+    "state": "WV",
+    "zip": "26062",
+    "homePhone": "5555555555",
+    "loyalty": "L01XB23WJCGX",
+    "subAccount": null,
+    "currentPointBalance": 0,
+    "rewardAmount": 0
+  },
+  "tenderResponse": {
+    "items": [
+      {
+        "transactionItemIdentifier": 1,
+        "upc": "889751127996",
+        "sku": "016510954",
+        "style": "TF16XLDVRMRH",
+        "description": "TOP FLITE 2016 XL DRIVER MRH",
+        "quantity": 1,
+        "unitPrice": 2.34,
+        "variants": {
+          "Hand": "Right Hand",
+          "Loft": "10.5°",
+          "Flex": "Regular Flex",
+          "Shaft": "Graphite"
+        },
+        "imageUrl": "https://imageservice-dev.apps.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16TFLMTPFLT2016XLDRV?req-img&fmt=png&op_sharpen=1",
+        "nonTaxable": false
+      }
+    ],
+    "tenders": [
+      {
+        "tenderType": 1,
+        "tenderTypeDescription": "Cash",
+        "amount": 100
+      }
+    ],
+    "total": {
+      "subTotal": 2.34,
+      "tax": 0.16,
+      "grandTotal": 2.5,
+      "changeDue": 97.5
+    },
+    "header": {
+      "storeNumber": 42,
+      "registerNumber": 1053,
+      "transactionNumber": 19,
+      "startDateTime": "2019-08-28T15:31:07.984238Z",
+      "timezoneOffset": -240,
+      "associateId": "1234567",
+      "transactionStatus": 1,
+      "transactionStatusDescription": "Active"
+    }
+  },
+  "registerCloseResponse": {
+    "registerResponse": {
+      "registerId": "260003fb-2241-438f-92db-d9ee1eb85325",
+      "storeNumber": 42,
+      "registerNumber": 1053,
+      "state": 0,
+      "stateDescription": "Closed"
+    },
+    "transactionResponse": {
+      "closeData": {
+        "openAssociateId": "1234567",
+        "expectedCashAmount": 5436.07
+      },
+      "header": {
+        "storeNumber": 42,
+        "registerNumber": 1053,
+        "transactionNumber": 17,
+        "startDateTime": "2019-08-28T15:19:15.0908194Z",
+        "endDateTime": "2019-08-28T15:19:15.0908194Z",
+        "timezoneOffset": -240,
+        "associateId": "1234567",
+        "transactionStatus": 2,
+        "transactionStatusDescription": "Complete"
+      }
+    }
+  },
+  "registerOpenResponse": {
+    "registerResponse": {
+      "registerId": "260003fb-2241-438f-92db-d9ee1eb85325",
+      "storeNumber": 42,
+      "registerNumber": 1053,
+      "state": 1,
+      "stateDescription": "Open"
+    },
+    "transactionResponse": {
+      "header": {
+        "storeNumber": 42,
+        "registerNumber": 1053,
+        "transactionNumber": 18,
+        "startDateTime": "2019-08-28T15:23:47.0621876Z",
+        "endDateTime": "2019-08-28T15:23:47.0621876Z",
+        "timezoneOffset": -240,
+        "associateId": "1234567",
+        "transactionStatus": 2,
+        "transactionStatusDescription": "Complete"
+      }
+    }
+  }
+}

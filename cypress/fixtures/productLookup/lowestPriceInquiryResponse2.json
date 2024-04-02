@@ -1,0 +1,18 @@
+{
+  "product": {
+    "description": "Brooks Women’s Addiction 13 Running Shoes",
+    "upc": "190340371394",
+    "sku": "019522728",
+    "style": "1202532A070",
+    "vertexTaxCode": "61375",
+    "variants": {
+      "Color": "Black/Pink/Grey",
+      "eCom Shoe Size": "8.5",
+      "eCom Shoe Width": "Narrow/2A"
+    },
+    "imageUrl": "https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17BROWDDCTN13XXXXRNN_Black_Pink_Grey?req-img&fmt=png&op_sharpen=1",
+    "hierarchy": "520-001-004-001",
+    "attributes": []
+  },
+  "returnPrice": 90.27
+}

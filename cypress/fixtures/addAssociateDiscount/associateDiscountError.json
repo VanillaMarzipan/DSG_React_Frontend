@@ -1,0 +1,1 @@
+{"type":"Error","error":{"statusCode":400,"reasonCode":0,"message":"The signed in associate ID cannot match the associate discount ID","originatingService":"Coordinator"},"upc":"1234567"}

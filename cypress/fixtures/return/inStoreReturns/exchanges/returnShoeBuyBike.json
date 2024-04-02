@@ -1,0 +1,92 @@
+{
+  "type": "Transaction",
+  "transaction": {
+    "header": {
+      "timestamp": 1651506348434,
+      "signature": "Gx3tNxMrKeeBt9Vu8ChIVXAd/EFErtdqb9C8Q3kLucA=",
+      "transactionKey": "46680088818705022022",
+      "tenderIdentifier": "1-46680088818705022022",
+      "eReceiptKey": "5008881870016050222041",
+      "storeNumber": 888,
+      "registerNumber": 187,
+      "transactionNumber": 16,
+      "startDateTime": "2022-05-02T15:45:21.920625Z",
+      "transactionDate": "2022-05-02T00:00:00",
+      "timezoneOffset": -240,
+      "associateId": "1234567",
+      "transactionType": 4,
+      "transactionTypeDescription": "Return",
+      "transactionStatus": 1,
+      "transactionStatusDescription": "Active"
+    },
+    "originalSaleInformation": [
+      {
+        "storeNumber": 4889,
+        "registerNumber": 102,
+        "transactionNumber": 913,
+        "customerOrderNumber": "20220502048891020913",
+        "transactionDate": "2022-05-02T00:00:00+00:00",
+        "returnItems": [
+          {
+            "lineNumber": 1,
+            "sequenceNumber": 0,
+            "distributionOrderNumber": "20220502048891020913",
+            "upc": "190340371394",
+            "sku": "019522728",
+            "style": "1202532A070",
+            "description": "Brooks Women?s Addiction 13 Running Shoes",
+            "quantity": 1,
+            "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17BROWDDCTN13XXXXRNN_Black_Pink_Grey?req-img&fmt=png&op_sharpen=1",
+            "returnPrice": -129.99,
+            "damaged": false,
+            "totalItemTax": 0.0
+          }
+        ],
+        "originalTenders": [
+          {
+            "tenderType": "Cash"
+          }
+        ],
+        "returnOriginationType": 0,
+        "returnSource": 2
+      }
+    ],
+    "items": [
+      {
+        "upc": "795447115584",
+        "sku": "018831374",
+        "style": "115518",
+        "description": "XTERRA Fitness RSX1500 Recumbent Stepper",
+        "quantity": 1,
+        "returnPrice": 1599.99,
+        "promptForPrice": false,
+        "unitPrice": 1599.99,
+        "referencePrice": 1599.99,
+        "everydayPrice": 1599.99,
+        "priceOverridden": false,
+        "originalUnitPrice": 1599.99,
+        "variants": {},
+        "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17NVJURSX1500RCMBMSC?req-img&fmt=png&op_sharpen=1",
+        "nonTaxable": false,
+        "totalItemTax": 112.0,
+        "hierarchy": "350-002-004-001",
+        "attributes": [],
+        "appliedDiscounts": [],
+        "transactionItemIdentifier": 1,
+        "giftReceipt": false
+      }
+    ],
+    "tenders": [],
+    "coupons": [],
+    "rewardCertificates": [],
+    "receiptMessages": [],
+    "total": {
+      "subTotal": 1470.0,
+      "tax": 112.0,
+      "grandTotal": 1582.0,
+      "changeDue": 0.0,
+      "remainingBalance": 1582.0
+    }
+  },
+  "upc": "795447115584"
+}

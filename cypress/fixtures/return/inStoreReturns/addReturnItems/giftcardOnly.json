@@ -1,0 +1,63 @@
+{
+  "header": {
+    "timestamp": 1647025282584,
+    "signature": "eKzhAc/D7GZtrZ54LaXC1XolCcD8tVQP1Y/syxPVpG4=",
+    "transactionKey": "35470088810603112022",
+    "tenderIdentifier": "1-35470088810603112022",
+    "eReceiptKey": "5008881061528031122047",
+    "storeNumber": 888,
+    "registerNumber": 106,
+    "transactionNumber": 1528,
+    "startDateTime": "2022-03-11T19:01:22.5694506Z",
+    "timezoneOffset": -300,
+    "associateId": "1234567",
+    "transactionType": 4,
+    "transactionTypeDescription": "Return",
+    "transactionStatus": 1,
+    "transactionStatusDescription": "Active"
+  },
+  "originalSaleInformation": [
+    {
+      "storeNumber": 4889,
+      "registerNumber": 102,
+      "transactionNumber": 679,
+      "customerOrderNumber": "20220311048891020679",
+      "transactionDate": "2022-03-11T00:00:00+00:00",
+      "returnItems": [
+        {
+          "lineNumber": 1,
+          "sequenceNumber": 0,
+          "distributionOrderNumber": "20220311048891020679",
+          "upc": "190340371394",
+          "sku": "019522728",
+          "style": "1202532A070",
+          "description": "Brooks Women?s Addiction 13 Running Shoes",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17BROWDDCTN13XXXXRNN_Black_Pink_Grey?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -129.99,
+          "damaged": false,
+          "totalItemTax": 0.0
+        }
+      ],
+      "originalTenders": [
+        {
+          "tenderType": "ValueLink"
+        }
+      ],
+      "returnOriginationType": 0,
+      "returnSource": 2
+    }
+  ],
+  "items": [],
+  "tenders": [],
+  "coupons": [],
+  "rewardCertificates": [],
+  "receiptMessages": [],
+  "total": {
+    "subTotal": -129.99,
+    "tax": 0.0,
+    "grandTotal": -129.99,
+    "changeDue": 0.0,
+    "remainingBalance": -129.99
+  }
+}

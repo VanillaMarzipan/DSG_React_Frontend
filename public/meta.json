@@ -1,0 +1,3 @@
+{
+  "build-number": "'#{Build.BuildNumber}#'"
+}

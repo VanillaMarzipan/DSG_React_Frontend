@@ -1,0 +1,75 @@
+{
+  "customerOrderNumber": "35300843008",
+  "chain": "Store",
+  "originalSaleInfo": {
+    "register": "190",
+    "transactionNumber": 112,
+    "transactionDate": "2022-07-15T00:00:00",
+    "storeNumber": "00888",
+    "storeName": "NON-PROD STORE",
+    "tenders": [
+      {
+        "tenderType": "Cash",
+        "adyenMerchantReferenceNumber": "20220715008881900112",
+        "adyenPspNumber": "adyenPSP"
+      }
+    ],
+    "scoreCardNumber": "L01TB23YCRQF"
+  },
+  "orderUnits": [
+    {
+      "customerOrderNumber": "35300843008",
+      "distributionOrderNumber": "100001212586",
+      "sku": "90465160",
+      "description": "Columbia Men's Watertight II Rain Jacket",
+      "upc": "400001524398",
+      "returnEligibility": [
+        "ELIGIBLE"
+      ],
+      "returnPrice": 37.1,
+      "lineNumber": 3,
+      "sequenceNumber": 0,
+      "fulfillmentDetails": {
+        "distributionOrderNumber": "100001212586",
+        "fulfillmentLocationId": "888",
+        "fulfillmentDate": "2022-07-15T18:29:59"
+      }
+    },
+    {
+      "customerOrderNumber": "35300843008",
+      "distributionOrderNumber": "100001212587",
+      "sku": "90500822",
+      "description": "[UAT] BOPIS TEST 1",
+      "upc": "400001803318",
+      "returnEligibility": [
+        "INELIGIBLE_STATUS"
+      ],
+      "returnPrice": 50.99,
+      "lineNumber": 1,
+      "sequenceNumber": 0,
+      "fulfillmentDetails": {
+        "distributionOrderNumber": "100001212587",
+        "fulfillmentLocationId": "888",
+        "fulfillmentDate": "2022-07-15T18:29:59"
+      }
+    },
+    {
+      "customerOrderNumber": "35300843008",
+      "distributionOrderNumber": "100001212586",
+      "sku": "90300578",
+      "description": "CHECK SHORT",
+      "upc": "400001709788",
+      "returnEligibility": [
+        "INELIGIBLE_STATUS"
+      ],
+      "returnPrice": 34.99,
+      "lineNumber": 2,
+      "sequenceNumber": 0,
+      "fulfillmentDetails": {
+        "distributionOrderNumber": "100001212586",
+        "fulfillmentLocationId": "888",
+        "fulfillmentDate": "2022-07-15T18:29:59"
+      }
+    }
+  ]
+}

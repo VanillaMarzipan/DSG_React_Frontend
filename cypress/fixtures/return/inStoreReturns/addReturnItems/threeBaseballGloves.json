@@ -1,0 +1,98 @@
+{
+  "header": {
+    "timestamp": 1661431879357,
+    "signature": "lMOCsu1GTXQXCG6z78/k8rCn0JjtEaFg0V0+XeGq4ZY=",
+    "transactionKey": "444790087925208252022",
+    "tenderIdentifier": "1-444790087925208252022",
+    "eReceiptKey": "5008792520007082522045",
+    "storeNumber": 879,
+    "registerNumber": 252,
+    "transactionNumber": 7,
+    "startDateTime": "2022-08-25T12:51:19.180487Z",
+    "transactionDate": "2022-08-25T00:00:00",
+    "timezoneOffset": -240,
+    "associateId": "1234567",
+    "transactionType": 4,
+    "transactionTypeDescription": "Return",
+    "transactionStatus": 1,
+    "transactionStatusDescription": "Active"
+  },
+  "originalSaleInformation": [
+    {
+      "storeNumber": 888,
+      "registerNumber": 380,
+      "transactionNumber": 32,
+      "customerOrderNumber": "20220629008883800032",
+      "loyaltyNumber": "L017B23WK6CS",
+      "transactionDate": "2022-06-29T00:00:00+00:00",
+      "returnOriginationType": 3,
+      "returnOriginationTypeDescription": "LoyaltyLookup",
+      "returnSource": 2,
+      "returnSourceDescription": "InStore",
+      "returnItems": [
+        {
+          "lineNumber": 1,
+          "sequenceNumber": 0,
+          "distributionOrderNumber": "20220629008883800032",
+          "upc": "083321578120",
+          "sku": "019455863",
+          "style": "DICH120BRNC",
+          "description": "Rawlings 12\"  Youth Highlight Series Glove 2019",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/18RAWY12HGHLGHTBRBGL_Brown?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -49.99,
+          "damaged": false,
+          "totalItemTax": -3.5
+        },
+        {
+          "lineNumber": 2,
+          "sequenceNumber": 0,
+          "distributionOrderNumber": "20220629008883800032",
+          "upc": "083321578120",
+          "sku": "019455863",
+          "style": "DICH120BRNC",
+          "description": "Rawlings 12\"  Youth Highlight Series Glove 2019",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/18RAWY12HGHLGHTBRBGL_Brown?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -49.99,
+          "damaged": false,
+          "totalItemTax": -3.5
+        },
+        {
+          "lineNumber": 3,
+          "sequenceNumber": 0,
+          "distributionOrderNumber": "20220629008883800032",
+          "upc": "083321578120",
+          "sku": "019455863",
+          "style": "DICH120BRNC",
+          "description": "Rawlings 12\"  Youth Highlight Series Glove 2019",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/18RAWY12HGHLGHTBRBGL_Brown?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -49.99,
+          "damaged": false,
+          "totalItemTax": -3.5
+        }
+      ],
+      "originalTenders": [
+        {
+          "tenderType": "Cash"
+        }
+      ]
+    }
+  ],
+  "items": [],
+  "tenders": [],
+  "coupons": [],
+  "rewardCertificates": [],
+  "receiptMessages": [],
+  "customer": {
+    "loyaltyNumber": "L017B23WK6CS"
+  },
+  "total": {
+    "subTotal": -149.97,
+    "tax": -10.5,
+    "grandTotal": -160.47,
+    "changeDue": 0.0,
+    "remainingBalance": -160.47
+  }
+}

@@ -1,0 +1,27 @@
+/// <reference types="cypress" />
+import elements from '../../support/pageElements'
+
+context('Credit Tender tests', () => {
+    //  Variable declarations
+    const tags = new elements
+    const yetiTumblerResponseData = '{"type":"Transaction","transaction":{"header":{"timestamp":1618433317540,"signature":"4eD/8OevagKShq1WBMV0Y/B40a95YaA8Hy0x9p3aXcY=","transactionKey":"246200087911304142021","tenderIdentifier":"1-246200087911304142021","eReceiptKey":"5008791130009041421013","storeNumber":879,"registerNumber":113,"transactionNumber":9,"startDateTime":"2021-04-14T20:48:37.383631Z","timezoneOffset":-240,"associateId":"1234567","transactionType":1,"transactionTypeDescription":"Sale","transactionStatus":1,"transactionStatusDescription":"Active"},"items":[{"transactionItemIdentifier":1,"upc":"888830050118","sku":"019824277","style":"21070060016","description":"YETI 20 oz. Rambler Tumbler with MagSlider Lid","quantity":1,"returnPrice":29.99,"promptForPrice":false,"unitPrice":29.99,"referencePrice":29.99,"everydayPrice":29.99,"priceOverridden":false,"originalUnitPrice":29.99,"variants":{"Color":"Sand","Capacity":"20 oz"},"imageUrl":"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1","nonTaxable":false,"hierarchy":"283-001-001-002","attributes":[],"appliedDiscounts":[],"giftReceipt":false}],"tenders":[],"coupons":[],"rewardCertificates":[],"receiptMessages":[],"total":{"subTotal":29.99,"tax":2.1,"grandTotal":32.09,"changeDue":0.00,"remainingBalance":32.09}},"upc":"888830050118"}'
+    
+    beforeEach(() => {
+        cy.launchPage()
+        cy.login(Cypress.env().associateNum, Cypress.env().associatePIN)
+        cy.addItemOrLoyalty(Cypress.env().yetiTumblerUPC, yetiTumblerResponseData)
+        tags.complete().click()
+    })
+
+    it.only('Test 1: The POS should display unknown error for malformed response', () => {
+        cy.intercept({
+            url: 'NewCreditTender',
+            method: 'POST'
+        },
+        {
+            body: "{ errorMessage: 'AN UNKNOWN ERROR HAS OCCURRED', actionCode: 405 }"
+        }).as('malformedCreditTender')
+        tags.tenderMenuCreditButton().click()
+        cy.wait('@malformedCreditTender')
+    })
+})

@@ -1,0 +1,64 @@
+{
+  "header": {
+    "timestamp": 1651515805759,
+    "signature": "disu6vw3P3Ne0KL3xm35pm0nTjUWIXHF4a6saOedD3I=",
+    "transactionKey": "46870088818705022022",
+    "tenderIdentifier": "1-46870088818705022022",
+    "eReceiptKey": "5008881870021050222046",
+    "storeNumber": 888,
+    "registerNumber": 187,
+    "transactionNumber": 21,
+    "startDateTime": "2022-05-02T18:23:25.7421566Z",
+    "transactionDate": "2022-05-02T00:00:00Z",
+    "timezoneOffset": -240,
+    "associateId": "1234567",
+    "transactionType": 4,
+    "transactionTypeDescription": "Return",
+    "transactionStatus": 1,
+    "transactionStatusDescription": "Active"
+  },
+  "originalSaleInformation": [
+    {
+      "storeNumber": 4889,
+      "registerNumber": 102,
+      "transactionNumber": 914,
+      "customerOrderNumber": "20220502048891020914",
+      "transactionDate": "2022-05-02T00:00:00+00:00",
+      "returnItems": [
+        {
+          "lineNumber": 1,
+          "sequenceNumber": 0,
+          "distributionOrderNumber": "20220502048891020914",
+          "upc": "888830050118",
+          "sku": "019824277",
+          "style": "21070060016",
+          "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -35.0,
+          "damaged": false,
+          "totalItemTax": -2.45
+        }
+      ],
+      "originalTenders": [
+        {
+          "tenderType": "Cash"
+        }
+      ],
+      "returnOriginationType": 0,
+      "returnSource": 2
+    }
+  ],
+  "items": [],
+  "tenders": [],
+  "coupons": [],
+  "rewardCertificates": [],
+  "receiptMessages": [],
+  "total": {
+    "subTotal": -35.0,
+    "tax": -2.45,
+    "grandTotal": -37.45,
+    "changeDue": 0.0,
+    "remainingBalance": -37.45
+  }
+}

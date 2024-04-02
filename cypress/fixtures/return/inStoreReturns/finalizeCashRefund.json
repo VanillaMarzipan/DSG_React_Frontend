@@ -1,0 +1,70 @@
+{
+  "header": {
+    "timestamp": 1647014840026,
+    "signature": "rCDH1vpzVUj7ZmfHXAo30lWp8dBailvCgqxJxXjaO8g=",
+    "transactionKey": "35400088810603112022",
+    "tenderIdentifier": "2-35400088810603112022",
+    "eReceiptKey": "5008881061521031122040",
+    "storeNumber": 888,
+    "registerNumber": 106,
+    "transactionNumber": 1521,
+    "startDateTime": "2022-03-11T15:37:51.865052Z",
+    "endDateTime": "2022-03-11T16:07:20.0131642Z",
+    "timezoneOffset": -300,
+    "associateId": "1234567",
+    "transactionType": 4,
+    "transactionTypeDescription": "Return",
+    "transactionStatus": 2,
+    "transactionStatusDescription": "Complete"
+  },
+  "originalSaleInformation": [
+    {
+      "storeNumber": 4889,
+      "registerNumber": 102,
+      "transactionNumber": 673,
+      "customerOrderNumber": "20220311048891020673",
+      "transactionDate": "2022-03-11T00:00:00+00:00",
+      "returnItems": [
+        {
+          "lineNumber": 1,
+          "sequenceNumber": 0,
+          "distributionOrderNumber": "20220311048891020673",
+          "upc": "190340371394",
+          "sku": "019522728",
+          "style": "1202532A070",
+          "description": "Brooks Women?s Addiction 13 Running Shoes",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17BROWDDCTN13XXXXRNN_Black_Pink_Grey?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -129.99,
+          "damaged": false,
+          "totalItemTax": 0.0
+        }
+      ],
+      "originalTenders": [
+        {
+          "tenderType": "Cash"
+        }
+      ],
+      "returnOriginationType": 0,
+      "returnSource": 2
+    }
+  ],
+  "items": [],
+  "tenders": [
+    {
+      "tenderType": 1,
+      "tenderTypeDescription": "Cash",
+      "amount": -129.99
+    }
+  ],
+  "coupons": [],
+  "rewardCertificates": [],
+  "receiptMessages": [],
+  "total": {
+    "subTotal": -129.99,
+    "tax": 0.0,
+    "grandTotal": -129.99,
+    "changeDue": 0.0,
+    "remainingBalance": 0.0
+  }
+}

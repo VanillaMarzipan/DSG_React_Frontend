@@ -1,0 +1,1244 @@
+{
+    "source": "mockoon:1.11.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 13,
+                "name": "POS Coordinator",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3001,
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "Get store information",
+                        "method": "get",
+                        "endpoint": "api/v4/configuration",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"storeInformation\": {\n    \"chainNumber\": 1,\n    \"chainDescription\": \"DICK'S Sporting Goods\",\n    \"number\": 879,\n    \"name\": \"Corporate\",\n    \"streetAddress\": \"345 Court Street\",\n    \"city\": \"Coraopolis\",\n    \"state\": \"PA\",\n    \"zipCode\": \"15275\",\n    \"phoneNumber\": \"724-273-3400\"\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "Not found",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"storeInformation\": {\n    \"chainNumber\": 1,\n    \"chainDescription\": \"DICK'S Sporting Goods\",\n    \"number\": 879,\n    \"name\": \"Corporate\",\n    \"streetAddress\": \"345 Court Street\",\n    \"city\": \"Coraopolis\",\n    \"state\": \"PA\",\n    \"zipCode\": \"15275\",\n    \"phoneNumber\": \"724-273-3400\"\n  }\n}",
+                                "latency": 40000,
+                                "statusCode": 200,
+                                "label": "Slow response",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Invalid JSON",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"asdf\":\"asdf\"\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Get register number",
+                        "method": "get",
+                        "endpoint": "api/v4/Register/RegisterNumber/:storeNumber/:macAddress",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"macAddress\": \"B1603915354069\",\n  \"storeNumber\": 879,\n  \"registerNumber\": 266,\n  \"state\": 0,\n  \"stateDescription\": \"Closed\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Get feature flags",
+                        "method": "get",
+                        "endpoint": "api/v4/Features/:storeNumber/:registerNumber/:timezoneOffset",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "[\n  \"ScanAndPay\",\n  \"Credit\",\n  \"Suspend\",\n  \"Warranty\",\n  \"ScanAndPayCoupons\",\n  \"WarrantySAP\",\n  \"LauncherHealthChecks\"\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Validate token",
+                        "method": "get",
+                        "endpoint": "api/v4/Security/ValidateToken/",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"StatusCode\": 401,\n  \"ReasonCode\": 0,\n  \"Message\": \"Invalid claims provided in request\",\n  \"OriginatingService\": \"PosCoordinator\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "Invalid claims",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Authenticate user",
+                        "method": "post",
+                        "endpoint": "api/v4/Security/Authenticate/",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"associateId\": \"1234567\",\n  \"firstName\": \"Johnny\",\n  \"lastName\": \"Cashier\",\n  \"token\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZUlkIjoiODc5IiwicmVnaXN0ZXJOdW1iZXIiOiIyODAiLCJhc3NvY2lhdGVJZCI6IjEyMzQ1NjciLCJyb2xlIjoiUG9zIiwibmJmIjoxNjEwNDc0OTk5LCJleHAiOjE2MTA1MTgxOTksImlhdCI6MTYxMDQ3NDk5OX0.mgUwoXMUjukNae4_uvIHqBl6oxxyn_5sFerLmi9_S46My6W5scAv8d2Jvi2DUEKzSpQ-8T7JkQa20qOTY5ZM0paGgdM6kj0oJku9CNbXs9DYtumz-LneCGkHwNNweRs_f7Fyftyjom-LzpVwpuO8vKOypFGH1IVeUPzMgXWPHh30O0CT2mRiDYhCFki6Hpj-Cpm_UYhsAQXz2MMgT7gT9zPLhldchPyTBI8CIVDDprmGZsQxcLdEq-UcpIVefNJP6aCEjyDXX81hJOa3a1qV5Yzz8ALiqWh9bOue33897hdlQrQUoJ9kfUDBs9ZmHvVlTKKOBIJ1AgR6HvOZ0M4oGA\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Check for active transaction",
+                        "method": "get",
+                        "endpoint": "api/v4/Transaction/ActiveTransaction",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "",
+                                "latency": 0,
+                                "statusCode": 204,
+                                "label": "No active transaction",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Open register",
+                        "method": "patch",
+                        "endpoint": "api/v4/Register/OpenRegister/-300",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"registerResponse\": {\n    \"macAddress\": \"B1605037762837\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"state\": 1,\n    \"stateDescription\": \"Open\"\n  },\n  \"transactionResponse\": {\n    \"header\": {\n      \"timestamp\": 1610477039804,\n      \"transactionKey\": \"230170087928001122021\",\n      \"tenderIdentifier\": \"1-230170087928001122021\",\n      \"eReceiptKey\": \"5008792800003011221026\",\n      \"storeNumber\": 879,\n      \"registerNumber\": 280,\n      \"transactionNumber\": 3,\n      \"startDateTime\": \"2021-01-12T18:43:59.7399866Z\",\n      \"endDateTime\": \"2021-01-12T18:43:59.7399866Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 2,\n      \"transactionTypeDescription\": \"Open\",\n      \"transactionStatus\": 2,\n      \"transactionStatusDescription\": \"Complete\"\n    }\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Omnisearch",
+                        "method": "post",
+                        "endpoint": "api/v4/OmniSearch",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"type\": \"Transaction\",\n  \"transaction\": {\n    \"header\": {\n      \"timestamp\": 1610479232182,\n      \"signature\": \"JcqA9yXAH6T09ZGcKdgduG8leCckVoBs/qPqNO+umnc=\",\n      \"transactionKey\": \"230190087928001122021\",\n      \"tenderIdentifier\": \"1-230190087928001122021\",\n      \"eReceiptKey\": \"5008792800004011221015\",\n      \"storeNumber\": 879,\n      \"registerNumber\": 280,\n      \"transactionNumber\": 4,\n      \"startDateTime\": \"2021-01-12T19:20:32.07914Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 1,\n      \"transactionTypeDescription\": \"Sale\",\n      \"transactionStatus\": 1,\n      \"transactionStatusDescription\": \"Active\"\n    },\n    \"items\": [\n      {\n        \"transactionItemIdentifier\": 1,\n        \"upc\": \"888830050118\",\n        \"sku\": \"019824277\",\n        \"style\": \"21070060016\",\n        \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n        \"quantity\": 1,\n        \"returnPrice\": 29.99,\n        \"promptForPrice\": false,\n        \"unitPrice\": 29.99,\n        \"referencePrice\": 29.99,\n        \"everydayPrice\": 29.99,\n        \"priceOverridden\": false,\n        \"originalUnitPrice\": 29.99,\n        \"variants\": {\n          \"Color\": \"Sand\",\n          \"Capacity\": \"20 oz\"\n        },\n        \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n        \"nonTaxable\": false,\n        \"hierarchy\": \"283-001-001-002\",\n        \"attributes\": [],\n        \"appliedDiscounts\": [],\n        \"giftReceipt\": false\n      }\n    ],\n    \"tenders\": [],\n    \"coupons\": [],\n    \"rewardCertificates\": [],\n    \"receiptMessages\": [],\n    \"total\": {\n      \"subTotal\": 29.99,\n      \"tax\": 2.1,\n      \"grandTotal\": 32.09,\n      \"changeDue\": 0,\n      \"remainingBalance\": 32.09\n    }\n  },\n  \"upc\": \"888830050118\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"type\": \"Transaction\",\n  \"transaction\": {\n    \"header\": {\n      \"timestamp\": 1610479232182,\n      \"signature\": \"JcqA9yXAH6T09ZGcKdgduG8leCckVoBs/qPqNO+umnc=\",\n      \"transactionKey\": \"230190087928001122021\",\n      \"tenderIdentifier\": \"1-230190087928001122021\",\n      \"eReceiptKey\": \"5008792800004011221015\",\n      \"storeNumber\": 879,\n      \"registerNumber\": 280,\n      \"transactionNumber\": 4,\n      \"startDateTime\": \"2021-01-12T19:20:32.07914Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 1,\n      \"transactionTypeDescription\": \"Sale\",\n      \"transactionStatus\": 1,\n      \"transactionStatusDescription\": \"Active\"\n    },\n    \"items\": [\n      {\n        \"transactionItemIdentifier\": 1,\n        \"upc\": \"888830050118\",\n        \"sku\": \"019824277\",\n        \"style\": \"21070060016\",\n        \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n        \"quantity\": 1,\n        \"returnPrice\": 29.99,\n        \"promptForPrice\": false,\n        \"unitPrice\": 29.99,\n        \"referencePrice\": 29.99,\n        \"everydayPrice\": 29.99,\n        \"priceOverridden\": false,\n        \"originalUnitPrice\": 29.99,\n        \"variants\": {\n          \"Color\": \"Sand\",\n          \"Capacity\": \"20 oz\"\n        },\n        \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n        \"nonTaxable\": false,\n        \"hierarchy\": \"283-001-001-002\",\n        \"attributes\": [],\n        \"appliedDiscounts\": [],\n        \"giftReceipt\": false\n      }\n    ],\n    \"tenders\": [],\n    \"coupons\": [],\n    \"rewardCertificates\": [],\n    \"receiptMessages\": [],\n    \"total\": {\n      \"subTotal\": 29.99,\n      \"tax\": 2.1,\n      \"grandTotal\": 32.09,\n      \"changeDue\": 0,\n      \"remainingBalance\": 32.09\n    }\n  },\n  \"upc\": \"888830050118\"\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n  \"type\": \"RestrictedProduct\",\r\n  \"restrictedProductAttributes\": [\r\n    {\r\n      \"attribute\": 0,\r\n      \"description\": \"RestrictedAge\"\r\n    }\r\n  ],\r\n  \"upc\": \"018614010209\"\r\n}\r\n",
+                                "latency": 0,
+                                "statusCode": 451,
+                                "label": "Age restricted",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n    \"type\": \"LoyaltyAccounts\",\n    \"loyalty\": [\n        {\n            \"id\": 25518100,\n            \"firstName\": \"Christos\",\n            \"lastName\": \"Pappas\",\n            \"emailAddress\": \"\",\n            \"street\": \"83 Fitchburg Rd\",\n            \"city\": \"Townsend\",\n            \"state\": \"MA\",\n            \"zip\": \"01469\",\n            \"homePhone\": \"9785975715\",\n            \"loyalty\": \"200140520011\",\n            \"subAccount\": \"20014052\",\n            \"currentPointBalance\": 0,\n            \"rewardAmount\": 0\n        },\n        {\n            \"id\": 28632100,\n            \"firstName\": \"Nancy\",\n            \"lastName\": \"Pappas\",\n            \"emailAddress\": \"nancyjpappas@comcast.net\",\n            \"street\": \"83 Fitchburg Rd\",\n            \"city\": \"Townsend\",\n            \"state\": \"MA\",\n            \"zip\": \"01469\",\n            \"homePhone\": \"9785975715\",\n            \"loyalty\": \"201083750015\",\n            \"subAccount\": \"20108375\",\n            \"currentPointBalance\": 0,\n            \"rewardAmount\": 0\n        }\n    ],\n    \"transaction\": {\n        \"header\": {\n            \"timestamp\": 1613073959074,\n            \"storeNumber\": 0,\n            \"registerNumber\": 0,\n            \"startDateTime\": \"0001-01-01T00:00:00\",\n            \"timezoneOffset\": 0,\n            \"transactionType\": 0,\n            \"transactionTypeDescription\": \"0\",\n            \"transactionStatus\": 0,\n            \"transactionStatusDescription\": \"0\"\n        },\n        \"items\": [],\n        \"tenders\": [],\n        \"coupons\": [],\n        \"rewardCertificates\": [],\n        \"receiptMessages\": [],\n        \"customer\": {},\n        \"total\": {\n            \"subTotal\": 0,\n            \"tax\": 0,\n            \"grandTotal\": 0,\n            \"changeDue\": 0,\n            \"remainingBalance\": 0\n        }\n    }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "BUG 1",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"type\": \"Transaction\",\n  \"transaction\": {\n    \"header\": {\n      \"timestamp\": 1612282699824,\n      \"signature\": \"lGthOpYnxWkgSz4WEkLCyId0U2rLUytjBXsy5ZSw+wg=\",\n      \"transactionKey\": \"23980088820002022021\",\n      \"tenderIdentifier\": \"1-23980088820002022021\",\n      \"eReceiptKey\": \"5008882000002020221016\",\n      \"storeNumber\": 888,\n      \"registerNumber\": 200,\n      \"transactionNumber\": 2,\n      \"startDateTime\": \"2021-02-02T16:18:19.54728Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 1,\n      \"transactionTypeDescription\": \"Sale\",\n      \"transactionStatus\": 1,\n      \"transactionStatusDescription\": \"Active\"\n    },\n    \"items\": [\n      {\n        \"transactionItemIdentifier\": 1,\n        \"upc\": \"018614010209\",\n        \"sku\": \"010466813\",\n        \"style\": \"1020\",\n        \"description\": \"CONTO CUSHN CARYNG STRAP BLACK\",\n        \"quantity\": 1,\n        \"promptForPrice\": true,\n        \"referencePrice\": 19.99,\n        \"everydayPrice\": 0.02,\n        \"priceOverridden\": false,\n        \"variants\": {},\n        \"imageUrl\": \"\",\n        \"nonTaxable\": true,\n        \"hierarchy\": \"200-003-007-002\",\n        \"attributes\": [\n          0\n        ],\n        \"appliedDiscounts\": [],\n        \"giftReceipt\": false\n      }\n    ],\n    \"tenders\": [],\n    \"coupons\": [],\n    \"rewardCertificates\": [],\n    \"receiptMessages\": [],\n    \"total\": {\n      \"subTotal\": 0,\n      \"tax\": 0,\n      \"grandTotal\": 0,\n      \"changeDue\": 0,\n      \"remainingBalance\": 0\n    }\n  },\n  \"upc\": \"018614010209\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Age restricted success",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Lookup customer by phone",
+                        "method": "get",
+                        "endpoint": "api/v4/Loyalty/phone/:phoneNumber",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "[\n  {\n    \"id\": 22327781,\n    \"firstName\": \"Justin\",\n    \"lastName\": \"Harding\",\n    \"emailAddress\": \"random1000@dcsg.com\",\n    \"street\": \"528 Wildwood Ave\",\n    \"city\": \"New Castle\",\n    \"state\": \"PA\",\n    \"zip\": \"16105-2440\",\n    \"homePhone\": \"7247304659\",\n    \"loyalty\": \"L01XB23W3LH9\",\n    \"subAccount\": \"B23W3LH9\",\n    \"currentPointBalance\": 0,\n    \"rewardAmount\": 0\n  }\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "One customer",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "[\n  {\n    \"id\": 22327781,\n    \"firstName\": \"Justin\",\n    \"lastName\": \"Harding\",\n    \"emailAddress\": \"random1000@dcsg.com\",\n    \"street\": \"528 Wildwood Ave\",\n    \"city\": \"New Castle\",\n    \"state\": \"PA\",\n    \"zip\": \"16105-2440\",\n    \"homePhone\": \"7247304659\",\n    \"subAccount\": \"B23W3LH9\",\n    \"currentPointBalance\": 0,\n    \"rewardAmount\": 0\n  }\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Invalid data",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "[\n  {\n    \"id\": 22327781,\n    \"firstName\": \"Justin\",\n    \"lastName\": \"Harding\",\n    \"emailAddress\": \"random1000@dcsg.com\",\n    \"street\": \"528 Wildwood Ave\",\n    \"city\": \"New Castle\",\n    \"state\": \"PA\",\n    \"zip\": \"16105-2440\",\n    \"homePhone\": \"7247304659\",\n    \"loyalty\": \"L01XB23W3LH9\",\n    \"subAccount\": \"B23W3LH9\",\n    \"currentPointBalance\": 0,\n    \"rewardAmount\": 0\n  }\n]",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "Not found error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "[\n  {\n    \"id\": 22327781,\n    \"firstName\": \"Justin\",\n    \"lastName\": \"Harding\",\n    \"emailAddress\": \"random1000@dcsg.com\",\n    \"street\": \"528 Wildwood Ave\",\n    \"city\": \"New Castle\",\n    \"state\": \"PA\",\n    \"zip\": \"16105-2440\",\n    \"homePhone\": \"7247304659\",\n    \"loyalty\": \"L01XB23W3LH9\",\n    \"subAccount\": \"B23W3LH9\",\n    \"currentPointBalance\": 0,\n    \"rewardAmount\": 0\n  },\n  {\n    \"id\": 22327781,\n    \"firstName\": \"Justin\",\n    \"lastName\": \"Harding\",\n    \"emailAddress\": \"random1000@dcsg.com\",\n    \"street\": \"528 Wildwood Ave\",\n    \"city\": \"New Castle\",\n    \"state\": \"PA\",\n    \"zip\": \"16105-2440\",\n    \"homePhone\": \"7247304659\",\n    \"loyalty\": \"L01XB23W3LH9\",\n    \"subAccount\": \"B23W3LH9\",\n    \"currentPointBalance\": 0,\n    \"rewardAmount\": 0\n  }\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Multiple customers",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "[\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Zero customer",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Add customer to transaction",
+                        "method": "post",
+                        "endpoint": "api/v4/Transaction/Customer/:customerId/:timezoneOffset",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610479378874,\n    \"signature\": \"Y2arbZKL3piFJiWrozbsyPgDLZMx5w1owHwfc0IWOvU=\",\n    \"transactionKey\": \"230190087928001122021\",\n    \"tenderIdentifier\": \"1-230190087928001122021\",\n    \"eReceiptKey\": \"5008792800004011221015\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-12T19:20:32.07914Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 29.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 29.99,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"customer\": {\n    \"loyaltyNumber\": \"L01XB23W3LH9\"\n  },\n  \"total\": {\n    \"subTotal\": 29.99,\n    \"tax\": 2.1,\n    \"grandTotal\": 32.09,\n    \"changeDue\": 0,\n    \"remainingBalance\": 32.09\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610479378874,\n    \"signature\": \"Y2arbZKL3piFJiWrozbsyPgDLZMx5w1owHwfc0IWOvU=\",\n    \"transactionKey\": \"230190087928001122021\",\n    \"tenderIdentifier\": \"1-230190087928001122021\",\n    \"eReceiptKey\": \"5008792800004011221015\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-12T19:20:32.07914Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 29.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 29.99,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"customer\": {\n    \"loyaltyNumber\": \"L01XB23W3LH9\"\n  },\n  \"total\": {\n    \"subTotal\": 29.99,\n    \"tax\": 2.1,\n    \"grandTotal\": 32.09,\n    \"changeDue\": 0,\n    \"remainingBalance\": 32.09\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Remove customer from transaction",
+                        "method": "delete",
+                        "endpoint": "api/v4/Transaction/Customer",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610481677762,\n    \"signature\": \"6bOlE0qnW7nWdMwu0fniNN0JOZfuAcOl0Sbfl+OjeM0=\",\n    \"transactionKey\": \"230190087928001122021\",\n    \"tenderIdentifier\": \"1-230190087928001122021\",\n    \"eReceiptKey\": \"5008792800004011221015\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-12T19:20:32.07914Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 29.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 29.99,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 29.99,\n    \"tax\": 2.1,\n    \"grandTotal\": 32.09,\n    \"changeDue\": 0,\n    \"remainingBalance\": 32.09\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Get customer account level details",
+                        "method": "get",
+                        "endpoint": "api/v4/Loyalty/AccountLevelDetails/L01XB23W3LH9",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"rewards\": [],\n  \"tier\": {\n    \"tier\": 2,\n    \"tierDescription\": \"Gold\"\n  },\n  \"points\": {\n    \"currentPointBalance\": 8696,\n    \"rewardAmount\": 0,\n    \"pointsToNextReward\": 4,\n    \"currentRewardTier\": 280,\n    \"nextRewardTier\": 290\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"rewards\": [],\n  \"tier\": {\n    \"tier\": 2,\n    \"tierDescription\": \"Gold\"\n  },\n  \"points\": {\n    \"currentPointBalance\": 8696,\n    \"rewardAmount\": 0,\n    \"pointsToNextReward\": 4,\n    \"currentRewardTier\": 280,\n    \"nextRewardTier\": 290\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"rewards\": [],\n  \"tier\": {\n    \"tier\": 2,\n    \"tierDescription\": \"Gold\"\n  },\n  \"points\": {\n    \"currentPointBalance\": 8696,\n    \"rewardAmount\": 0,\n    \"pointsToNextReward\": 4,\n    \"currentRewardTier\": 280,\n    \"nextRewardTier\": 290\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Invalid data",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Void transaction",
+                        "method": "post",
+                        "endpoint": "api/v4/Transaction/VoidTransaction",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610564379774,\n    \"signature\": \"SfCQd6HdhElw4NlbVuf20vq0nWqbs02rM85kuE9iYmw=\",\n    \"transactionKey\": \"230190087928001122021\",\n    \"tenderIdentifier\": \"1-230190087928001122021\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"startDateTime\": \"2021-01-12T19:20:32.07914Z\",\n    \"endDateTime\": \"2021-01-13T18:59:39.5767625Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 3,\n    \"transactionStatusDescription\": \"Void\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 29.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 29.99,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 29.99,\n    \"tax\": 2.1,\n    \"grandTotal\": 32.09,\n    \"changeDue\": 0,\n    \"remainingBalance\": 32.09\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610564379774,\n    \"signature\": \"SfCQd6HdhElw4NlbVuf20vq0nWqbs02rM85kuE9iYmw=\",\n    \"transactionKey\": \"230190087928001122021\",\n    \"tenderIdentifier\": \"1-230190087928001122021\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"startDateTime\": \"2021-01-12T19:20:32.07914Z\",\n    \"endDateTime\": \"2021-01-13T18:59:39.5767625Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 3,\n    \"transactionStatusDescription\": \"Void\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 29.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 29.99,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 29.99,\n    \"tax\": 2.1,\n    \"grandTotal\": 32.09,\n    \"changeDue\": 0,\n    \"remainingBalance\": 32.09\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Suspend transaction",
+                        "method": "post",
+                        "endpoint": "api/v4/Transaction/SuspendTransaction",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"transaction\": {\n    \"header\": {\n      \"timestamp\": 1610565630121,\n      \"signature\": \"1J2O+B3R6K7hPrP+Yd/R7wgUjLAn8JBTwIuVQn+as3U=\",\n      \"transactionKey\": \"230270087928001132021\",\n      \"tenderIdentifier\": \"1-230270087928001132021\",\n      \"storeNumber\": 879,\n      \"registerNumber\": 280,\n      \"startDateTime\": \"2021-01-13T19:04:30.935528Z\",\n      \"endDateTime\": \"2021-01-13T19:20:30.0997637Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 1,\n      \"transactionTypeDescription\": \"Sale\",\n      \"transactionStatus\": 4,\n      \"transactionStatusDescription\": \"Suspend\"\n    },\n    \"items\": [\n      {\n        \"transactionItemIdentifier\": 1,\n        \"upc\": \"888830050118\",\n        \"sku\": \"019824277\",\n        \"style\": \"21070060016\",\n        \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n        \"quantity\": 1,\n        \"returnPrice\": 29.99,\n        \"promptForPrice\": false,\n        \"unitPrice\": 29.99,\n        \"referencePrice\": 29.99,\n        \"everydayPrice\": 29.99,\n        \"priceOverridden\": false,\n        \"originalUnitPrice\": 29.99,\n        \"variants\": {\n          \"Color\": \"Sand\",\n          \"Capacity\": \"20 oz\"\n        },\n        \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n        \"nonTaxable\": false,\n        \"hierarchy\": \"283-001-001-002\",\n        \"attributes\": [],\n        \"appliedDiscounts\": [],\n        \"giftReceipt\": false\n      }\n    ],\n    \"tenders\": [],\n    \"coupons\": [],\n    \"rewardCertificates\": [],\n    \"receiptMessages\": [],\n    \"total\": {\n      \"subTotal\": 29.99,\n      \"tax\": 2.1,\n      \"grandTotal\": 32.09,\n      \"changeDue\": 0,\n      \"remainingBalance\": 32.09\n    }\n  },\n  \"queueBusterResponse\": {\n    \"Success\": true,\n    \"TransactionNumber\": \"00000766\"\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"transaction\": {\n    \"header\": {\n      \"timestamp\": 1610565630121,\n      \"signature\": \"1J2O+B3R6K7hPrP+Yd/R7wgUjLAn8JBTwIuVQn+as3U=\",\n      \"transactionKey\": \"230270087928001132021\",\n      \"tenderIdentifier\": \"1-230270087928001132021\",\n      \"storeNumber\": 879,\n      \"registerNumber\": 280,\n      \"startDateTime\": \"2021-01-13T19:04:30.935528Z\",\n      \"endDateTime\": \"2021-01-13T19:20:30.0997637Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 1,\n      \"transactionTypeDescription\": \"Sale\",\n      \"transactionStatus\": 4,\n      \"transactionStatusDescription\": \"Suspend\"\n    },\n    \"items\": [\n      {\n        \"transactionItemIdentifier\": 1,\n        \"upc\": \"888830050118\",\n        \"sku\": \"019824277\",\n        \"style\": \"21070060016\",\n        \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n        \"quantity\": 1,\n        \"returnPrice\": 29.99,\n        \"promptForPrice\": false,\n        \"unitPrice\": 29.99,\n        \"referencePrice\": 29.99,\n        \"everydayPrice\": 29.99,\n        \"priceOverridden\": false,\n        \"originalUnitPrice\": 29.99,\n        \"variants\": {\n          \"Color\": \"Sand\",\n          \"Capacity\": \"20 oz\"\n        },\n        \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n        \"nonTaxable\": false,\n        \"hierarchy\": \"283-001-001-002\",\n        \"attributes\": [],\n        \"appliedDiscounts\": [],\n        \"giftReceipt\": false\n      }\n    ],\n    \"tenders\": [],\n    \"coupons\": [],\n    \"rewardCertificates\": [],\n    \"receiptMessages\": [],\n    \"total\": {\n      \"subTotal\": 29.99,\n      \"tax\": 2.1,\n      \"grandTotal\": 32.09,\n      \"changeDue\": 0,\n      \"remainingBalance\": 32.09\n    }\n  },\n  \"queueBusterResponse\": {\n    \"Success\": true,\n    \"TransactionNumber\": \"00000766\"\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Add gift receipts to transaction",
+                        "method": "post",
+                        "endpoint": "api/v4/Product/GiftReceipts",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"success\": true,\n  \"statusCode\": 200,\n  \"data\": {\n    \"header\": {\n      \"timestamp\": 1610566164054,\n      \"signature\": \"THVJHfiVTZcWolNAGBUXTaDY3EzqQNWg1ivpK/CEA4w=\",\n      \"transactionKey\": \"230280087928001132021\",\n      \"tenderIdentifier\": \"1-230280087928001132021\",\n      \"eReceiptKey\": \"5008792800004011321012\",\n      \"storeNumber\": 879,\n      \"registerNumber\": 280,\n      \"transactionNumber\": 4,\n      \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 1,\n      \"transactionTypeDescription\": \"Sale\",\n      \"transactionStatus\": 1,\n      \"transactionStatusDescription\": \"Active\"\n    },\n    \"items\": [\n      {\n        \"transactionItemIdentifier\": 1,\n        \"upc\": \"888830050118\",\n        \"sku\": \"019824277\",\n        \"style\": \"21070060016\",\n        \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n        \"quantity\": 1,\n        \"returnPrice\": 29.99,\n        \"promptForPrice\": false,\n        \"unitPrice\": 29.99,\n        \"referencePrice\": 29.99,\n        \"everydayPrice\": 29.99,\n        \"priceOverridden\": false,\n        \"originalUnitPrice\": 29.99,\n        \"variants\": {\n          \"Color\": \"Sand\",\n          \"Capacity\": \"20 oz\"\n        },\n        \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n        \"nonTaxable\": false,\n        \"hierarchy\": \"283-001-001-002\",\n        \"attributes\": [],\n        \"appliedDiscounts\": [],\n        \"giftReceipt\": true\n      }\n    ],\n    \"tenders\": [],\n    \"coupons\": [],\n    \"rewardCertificates\": [],\n    \"receiptMessages\": [],\n    \"total\": {\n      \"subTotal\": 29.99,\n      \"tax\": 2.1,\n      \"grandTotal\": 32.09,\n      \"changeDue\": 0,\n      \"remainingBalance\": 32.09\n    }\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"success\": true,\n  \"statusCode\": 200,\n  \"data\": {\n    \"header\": {\n      \"timestamp\": 1610566164054,\n      \"signature\": \"THVJHfiVTZcWolNAGBUXTaDY3EzqQNWg1ivpK/CEA4w=\",\n      \"transactionKey\": \"230280087928001132021\",\n      \"tenderIdentifier\": \"1-230280087928001132021\",\n      \"eReceiptKey\": \"5008792800004011321012\",\n      \"storeNumber\": 879,\n      \"registerNumber\": 280,\n      \"transactionNumber\": 4,\n      \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n      \"timezoneOffset\": -300,\n      \"associateId\": \"1234567\",\n      \"transactionType\": 1,\n      \"transactionTypeDescription\": \"Sale\",\n      \"transactionStatus\": 1,\n      \"transactionStatusDescription\": \"Active\"\n    },\n    \"items\": [\n      {\n        \"transactionItemIdentifier\": 1,\n        \"upc\": \"888830050118\",\n        \"sku\": \"019824277\",\n        \"style\": \"21070060016\",\n        \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n        \"quantity\": 1,\n        \"returnPrice\": 29.99,\n        \"promptForPrice\": false,\n        \"unitPrice\": 29.99,\n        \"referencePrice\": 29.99,\n        \"everydayPrice\": 29.99,\n        \"priceOverridden\": false,\n        \"originalUnitPrice\": 29.99,\n        \"variants\": {\n          \"Color\": \"Sand\",\n          \"Capacity\": \"20 oz\"\n        },\n        \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n        \"nonTaxable\": false,\n        \"hierarchy\": \"283-001-001-002\",\n        \"attributes\": [],\n        \"appliedDiscounts\": [],\n        \"giftReceipt\": true\n      }\n    ],\n    \"tenders\": [],\n    \"coupons\": [],\n    \"rewardCertificates\": [],\n    \"receiptMessages\": [],\n    \"total\": {\n      \"subTotal\": 29.99,\n      \"tax\": 2.1,\n      \"grandTotal\": 32.09,\n      \"changeDue\": 0,\n      \"remainingBalance\": 32.09\n    }\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Change item price",
+                        "method": "post",
+                        "endpoint": "api/v4/Product/PriceChange/:itemId",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610566513469,\n    \"signature\": \"8CQWa2ygtd23Rgs6XXFe5skB1EQxgEliVuv4MnIo+bQ=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"1-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 11.22,\n    \"tax\": 0.79,\n    \"grandTotal\": 12.01,\n    \"changeDue\": 0,\n    \"remainingBalance\": 12.01\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610566513469,\n    \"signature\": \"8CQWa2ygtd23Rgs6XXFe5skB1EQxgEliVuv4MnIo+bQ=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"1-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 11.22,\n    \"tax\": 0.79,\n    \"grandTotal\": 12.01,\n    \"changeDue\": 0,\n    \"remainingBalance\": 12.01\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Get available warranties",
+                        "method": "get",
+                        "endpoint": "api/v4/Warranty/AvailableWarranties",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "[\n  {\n    \"item\": {\n      \"transactionItemIdentifier\": 2,\n      \"upc\": \"887768671082\",\n      \"sku\": \"018523364\",\n      \"style\": \"WTA09RB18D125\",\n      \"description\": \"Wilson 12.5’’ A950 Series Glove\",\n      \"quantity\": 1,\n      \"returnPrice\": 89.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 89.99,\n      \"referencePrice\": 89.99,\n      \"everydayPrice\": 89.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 89.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17WILA125950MNSBLBGL?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"330-001-002-001\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    },\n    \"warranties\": [\n      {\n        \"sku\": \"013676773\",\n        \"planDescription\": \"Replacement Ext\",\n        \"product\": {\n          \"description\": \"2 Year Replacement Plan\",\n          \"upc\": \"400001001110\",\n          \"sku\": \"013676773\",\n          \"style\": \"NM REPL 2Y 1\",\n          \"vertexTaxCode\": \"81000\",\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU2YR1RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"legacyPluResponse\": \"<MESSAGE Content=\\\"PLU\\\" Type=\\\"Response\\\" Frame=\\\"1\\\" Last=\\\"1\\\" MaxSegmentSize=\\\"20000\\\"><Component><Parameters><LOOKUPTYPE>SKU</LOOKUPTYPE><SKU>400001001110</SKU></Parameters><CrossRefFile><RECORD recno=\\\"1\\\"><XREFKEY>400001001110</XREFKEY><PKEY1>013676773</PKEY1></RECORD></CrossRefFile><PLUFile><RECORD recno=\\\"1\\\"><PKEY1>013676773</PKEY1><FLAGWORD>4096</FLAGWORD><DESCRIPTION>2YR1REPLAC/NCOLR/NSIZE/NDIMN</DESCRIPTION><LONGDESCRIPTION>2YR1REPLAC/NCOLR/NSIZE/NDIMN</LONGDESCRIPTION><UNITPRICE>2199</UNITPRICE><TAXFLAG>6</TAXFLAG><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>6</SUBDEPARTMENT><CLASS>240</CLASS><SUBCLASS>230</SUBCLASS><STYLE>NM REPL 2Y 1</STYLE><VENDORID>388</VENDORID><VENDORNAME>NON MERCHANDISE</VENDORNAME><VENDORPARTNUMBER>NM REPL 2Y 1</VENDORPARTNUMBER><SIZE>0900</SIZE><COLOR>0999</COLOR><COORDINATEGROUPID>17</COORDINATEGROUPID><MANUFRID>0</MANUFRID><ITEMLOWPRICE>8000</ITEMLOWPRICE><ITEMHIGHPRICE>11999</ITEMHIGHPRICE><ASSOCIATEBASEPRICE>2199</ASSOCIATEBASEPRICE><ORIGINALRETAIL>2199</ORIGINALRETAIL></RECORD></PLUFile><PromoMap><RECORD recno=\\\"1\\\"><PROMOCODE>31754620</PROMOCODE><BUYGET>6</BUYGET><EXCLUSIVE>0</EXCLUSIVE><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>0</SUBDEPARTMENT><CLASS>0</CLASS><SUBCLASS>0</SUBCLASS><STYLE></STYLE></RECORD><RECORD recno=\\\"2\\\"><PROMOCODE>33195300</PROMOCODE><BUYGET>6</BUYGET><EXCLUSIVE>0</EXCLUSIVE><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>0</SUBDEPARTMENT><CLASS>0</CLASS><SUBCLASS>0</SUBCLASS><STYLE></STYLE></RECORD><RECORD recno=\\\"3\\\"><PROMOCODE>33195302</PROMOCODE><BUYGET>6</BUYGET><EXCLUSIVE>0</EXCLUSIVE><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>0</SUBDEPARTMENT><CLASS>0</CLASS><SUBCLASS>0</SUBCLASS><STYLE></STYLE></RECORD></PromoMap><Promo><RECORD recno=\\\"1\\\"><PROMOCODE>31754620</PROMOCODE><STARTDATE>02/26/2018</STARTDATE><STARTTIME>00:00:00</STARTTIME><STOPDATE>11/01/2025</STOPDATE><STOPTIME>23:59:00</STOPTIME><SALEPRICE>0</SALEPRICE><DISCOUNT>0</DISCOUNT><DOLLARSOFF>0</DOLLARSOFF><GETAMT>0</GETAMT><GETQTY>0</GETQTY><BUYAMT>39900</BUYAMT><BUYQTY>0</BUYQTY><NEXTTIER>0</NEXTTIER><PROMOSCHEME>810</PROMOSCHEME><DISCOUNTFLAG>1</DISCOUNTFLAG><TAXFLAG>0</TAXFLAG><ENABLEDPROMO>0</ENABLEDPROMO><REPEATLIMIT>1</REPEATLIMIT><FINANCINGTIME>0</FINANCINGTIME><EVENTID>188959</EVENTID><LOYALTYFLAG>0</LOYALTYFLAG><CUSTOMDATA1>SFPRIORITY=2;SFDURATION=12;SFCODE=3;SFTENDERIDS=7,23</CUSTOMDATA1></RECORD><RECORD recno=\\\"2\\\"><PROMOCODE>33195300</PROMOCODE><STARTDATE>11/20/2020</STARTDATE><STARTTIME>00:00:00</STARTTIME><STOPDATE>01/31/2021</STOPDATE><STOPTIME>23:59:00</STOPTIME><SALEPRICE>0</SALEPRICE><DISCOUNT>0</DISCOUNT><DOLLARSOFF>0</DOLLARSOFF><GETAMT>0</GETAMT><GETQTY>0</GETQTY><BUYAMT>89900</BUYAMT><BUYQTY>0</BUYQTY><NEXTTIER>0</NEXTTIER><PROMOSCHEME>810</PROMOSCHEME><DISCOUNTFLAG>1</DISCOUNTFLAG><TAXFLAG>0</TAXFLAG><ENABLEDPROMO>0</ENABLEDPROMO><REPEATLIMIT>1</REPEATLIMIT><FINANCINGTIME>0</FINANCINGTIME><EVENTID>245761</EVENTID><LOYALTYFLAG>0</LOYALTYFLAG><CUSTOMDATA1>SFPRIORITY=1;SFDURATION=18;SFCODE=5;SFTENDERIDS=7,23</CUSTOMDATA1></RECORD><RECORD recno=\\\"3\\\"><PROMOCODE>33195302</PROMOCODE><STARTDATE>11/20/2020</STARTDATE><STARTTIME>00:00:00</STARTTIME><STOPDATE>01/31/2021</STOPDATE><STOPTIME>23:59:00</STOPTIME><SALEPRICE>0</SALEPRICE><DISCOUNT>0</DISCOUNT><DOLLARSOFF>0</DOLLARSOFF><GETAMT>0</GETAMT><GETQTY>0</GETQTY><BUYAMT>109900</BUYAMT><BUYQTY>0</BUYQTY><NEXTTIER>0</NEXTTIER><PROMOSCHEME>810</PROMOSCHEME><DISCOUNTFLAG>1</DISCOUNTFLAG><TAXFLAG>0</TAXFLAG><ENABLEDPROMO>0</ENABLEDPROMO><REPEATLIMIT>1</REPEATLIMIT><FINANCINGTIME>0</FINANCINGTIME><EVENTID>245761</EVENTID><LOYALTYFLAG>0</LOYALTYFLAG><CUSTOMDATA1>SFPRIORITY=0;SFDURATION=24;SFCODE=1;SFTENDERIDS=7,23</CUSTOMDATA1></RECORD></Promo><SpecialMessages><RECORD recno=\\\"1\\\"><PROMOCODE>31754620</PROMOCODE><TYPE>2</TYPE><PRIORITY>1</PRIORITY><MESSAGETEXT>{ConsentText}\\\\rThis consent is only applicable if you are using a ScoreRewards credit card account as payment on this transaction.\\\\r\\\\rYour consent is requested to receive electronic disclosures for this single transaction. \\\\rA paper copy of the disclosures will be provided for your records.\\\\r I consent to receive \\\\relectronic disclosure for this transaction only, I confirm that I can view this disclosure \\\\rand I understand that I can withdraw this consent by cancelling this transaction. If I \\\\rdecline to provide this consent by clicking the 'Decline' button below, I understand that I \\\\rwill not receive a special financing promotion on this purchase.\\\\r{/ConsentText}\\\\r\\\\r{DisclosureText}\\\\rYour purchase qualifies for the following promotion if you use a ScoreRewards credit card account as payment on this transaction:\\\\n\\\\rNo interest if paid in full within {Months/} months.\\\\r\\\\r{OnlineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be imposed from the transaction date at a\\\\r{FixedRateText} \\\\r{/FixedRateText} \\\\r{VariableRateText}variable \\\\r{/VariableRateText} APR of {Rate/}%.\\\\r{VariableRateText} APR will vary with the market based on Prime Rate.\\\\r{/VariableRateText}\\\\r{/OnlineText}\\\\rIf you select 'Accept' for a special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases.  \\\\rIf you select 'Decline', you will earn 3 reward points for each $1 of purchases on a new account opened today and 2 reward points for each $1 of purchases on an existing account.\\\\r\\\\r{OfflineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be \\\\rimposed from the transaction date at the APR that currently applies to new purchases on your account. \\\\r\\\\r{/OfflineText}\\\\r\\\\r{PinPadText}\\\\rIf I click 'Decline' below, I understand that I will not receive a special financing promotion on this purchase.\\\\r{/PinPadText}\\\\r\\\\r{ReceiptText}\\\\r~|cASpecial Financing purchases \\\\r~|cAare not eligible for extra credit \\\\r~|cApoints. \\\\rFor more information, see\\\\r~|cAthe \\\\r~|cASCORECARD PROGRAM Terms.\\\\r\\\\r{/ReceiptText}\\\\r\\\\r{/DisclosureText}\\\\r\\\\r By accepting the special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases. \\\\r\\\\r</MESSAGETEXT></RECORD><RECORD recno=\\\"2\\\"><PROMOCODE>33195300</PROMOCODE><TYPE>2</TYPE><PRIORITY>1</PRIORITY><MESSAGETEXT>{ConsentText}\\\\rThis consent is only applicable if you are using a ScoreRewards credit card account as payment on this transaction.\\\\r\\\\rYour consent is requested to receive electronic disclosures for this single transaction. \\\\rA paper copy of the disclosures will be provided for your records.\\\\r I consent to receive \\\\relectronic disclosure for this transaction only, I confirm that I can view this disclosure \\\\rand I understand that I can withdraw this consent by cancelling this transaction. If I \\\\rdecline to provide this consent by clicking the 'Decline' button below, I understand that I \\\\rwill not receive a special financing promotion on this purchase.\\\\r{/ConsentText}\\\\r\\\\r{DisclosureText}\\\\rYour purchase qualifies for the following promotion if you use a ScoreRewards credit card account as payment on this transaction:\\\\n\\\\rNo interest if paid in full within {Months/} months.\\\\r\\\\r{OnlineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be imposed from the transaction date at a\\\\r{FixedRateText} \\\\r{/FixedRateText} \\\\r{VariableRateText}variable \\\\r{/VariableRateText} APR of {Rate/}%.\\\\r{VariableRateText} APR will vary with the market based on Prime Rate.\\\\r{/VariableRateText}\\\\r{/OnlineText}\\\\rIf you select 'Accept' for a special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases.  \\\\rIf you select 'Decline', you will earn 3 reward points for each $1 of purchases on a new account opened today and 2 reward points for each $1 of purchases on an existing account.\\\\r\\\\r{OfflineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be \\\\rimposed from the transaction date at the APR that currently applies to new purchases on your account. \\\\r\\\\r{/OfflineText}\\\\r\\\\r{PinPadText}\\\\rIf I click 'Decline' below, I understand that I will not receive a special financing promotion on this purchase.\\\\r{/PinPadText}\\\\r\\\\r{ReceiptText}\\\\r~|cASpecial Financing purchases \\\\r~|cAare not eligible for extra credit \\\\r~|cApoints. \\\\rFor more information, see\\\\r~|cAthe \\\\r~|cASCORECARD PROGRAM Terms.\\\\r\\\\r{/ReceiptText}\\\\r\\\\r{/DisclosureText}\\\\r\\\\r By accepting the special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases. \\\\r\\\\r</MESSAGETEXT></RECORD><RECORD recno=\\\"3\\\"><PROMOCODE>33195302</PROMOCODE><TYPE>2</TYPE><PRIORITY>1</PRIORITY><MESSAGETEXT>{ConsentText}\\\\rThis consent is only applicable if you are using a ScoreRewards credit card account as payment on this transaction.\\\\r\\\\rYour consent is requested to receive electronic disclosures for this single transaction. \\\\rA paper copy of the disclosures will be provided for your records.\\\\r I consent to receive \\\\relectronic disclosure for this transaction only, I confirm that I can view this disclosure \\\\rand I understand that I can withdraw this consent by cancelling this transaction. If I \\\\rdecline to provide this consent by clicking the 'Decline' button below, I understand that I \\\\rwill not receive a special financing promotion on this purchase.\\\\r{/ConsentText}\\\\r\\\\r{DisclosureText}\\\\rYour purchase qualifies for the following promotion if you use a ScoreRewards credit card account as payment on this transaction:\\\\n\\\\rNo interest if paid in full within {Months/} months.\\\\r\\\\r{OnlineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be imposed from the transaction date at a\\\\r{FixedRateText} \\\\r{/FixedRateText} \\\\r{VariableRateText}variable \\\\r{/VariableRateText} APR of {Rate/}%.\\\\r{VariableRateText} APR will vary with the market based on Prime Rate.\\\\r{/VariableRateText}\\\\r{/OnlineText}\\\\rIf you select 'Accept' for a special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases.  \\\\rIf you select 'Decline', you will earn 3 reward points for each $1 of purchases on a new account opened today and 2 reward points for each $1 of purchases on an existing account.\\\\r\\\\r{OfflineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be \\\\rimposed from the transaction date at the APR that currently applies to new purchases on your account. \\\\r\\\\r{/OfflineText}\\\\r\\\\r{PinPadText}\\\\rIf I click 'Decline' below, I understand that I will not receive a special financing promotion on this purchase.\\\\r{/PinPadText}\\\\r\\\\r{ReceiptText}\\\\r~|cASpecial Financing purchases \\\\r~|cAare not eligible for extra credit \\\\r~|cApoints. \\\\rFor more information, see\\\\r~|cAthe \\\\r~|cASCORECARD PROGRAM Terms.\\\\r\\\\r{/ReceiptText}\\\\r\\\\r{/DisclosureText}\\\\r\\\\r By accepting the special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases. \\\\r\\\\r</MESSAGETEXT></RECORD></SpecialMessages><ItemTax></ItemTax><ClassTax></ClassTax><DepartmentTax></DepartmentTax></Component><CORRELATION>XMLRequest</CORRELATION></MESSAGE>\"\n        },\n        \"pricing\": {\n          \"quantity\": 0,\n          \"everydayPrice\": 0,\n          \"referencePrice\": 0,\n          \"unitSellingPrice\": 21.99,\n          \"promptForPrice\": true\n        }\n      },\n      {\n        \"sku\": \"013676765\",\n        \"planDescription\": \"Replacement Ext\",\n        \"product\": {\n          \"description\": \"1 Year Replacement Plan\",\n          \"upc\": \"400001001073\",\n          \"sku\": \"013676765\",\n          \"style\": \"NM REPL 1Y 3\",\n          \"vertexTaxCode\": \"81000\",\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU1YR3RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"legacyPluResponse\": \"<MESSAGE Content=\\\"PLU\\\" Type=\\\"Response\\\" Frame=\\\"1\\\" Last=\\\"1\\\" MaxSegmentSize=\\\"20000\\\"><Component><Parameters><LOOKUPTYPE>SKU</LOOKUPTYPE><SKU>400001001073</SKU></Parameters><CrossRefFile><RECORD recno=\\\"1\\\"><XREFKEY>400001001073</XREFKEY><PKEY1>013676765</PKEY1></RECORD></CrossRefFile><PLUFile><RECORD recno=\\\"1\\\"><PKEY1>013676765</PKEY1><FLAGWORD>4096</FLAGWORD><DESCRIPTION>1YR3REPLAC/NCOLR/NSIZE/NDIMN</DESCRIPTION><LONGDESCRIPTION>1YR3REPLAC/NCOLR/NSIZE/NDIMN</LONGDESCRIPTION><UNITPRICE>1199</UNITPRICE><TAXFLAG>6</TAXFLAG><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>6</SUBDEPARTMENT><CLASS>240</CLASS><SUBCLASS>230</SUBCLASS><STYLE>NM REPL 1Y 3</STYLE><VENDORID>388</VENDORID><VENDORNAME>NON MERCHANDISE</VENDORNAME><VENDORPARTNUMBER>NM REPL 1Y 3</VENDORPARTNUMBER><SIZE>0900</SIZE><COLOR>0999</COLOR><COORDINATEGROUPID>17</COORDINATEGROUPID><MANUFRID>0</MANUFRID><ITEMLOWPRICE>8000</ITEMLOWPRICE><ITEMHIGHPRICE>11999</ITEMHIGHPRICE><ASSOCIATEBASEPRICE>1199</ASSOCIATEBASEPRICE><ORIGINALRETAIL>1199</ORIGINALRETAIL></RECORD></PLUFile><PromoMap><RECORD recno=\\\"1\\\"><PROMOCODE>31754620</PROMOCODE><BUYGET>6</BUYGET><EXCLUSIVE>0</EXCLUSIVE><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>0</SUBDEPARTMENT><CLASS>0</CLASS><SUBCLASS>0</SUBCLASS><STYLE></STYLE></RECORD><RECORD recno=\\\"2\\\"><PROMOCODE>33195300</PROMOCODE><BUYGET>6</BUYGET><EXCLUSIVE>0</EXCLUSIVE><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>0</SUBDEPARTMENT><CLASS>0</CLASS><SUBCLASS>0</SUBCLASS><STYLE></STYLE></RECORD><RECORD recno=\\\"3\\\"><PROMOCODE>33195302</PROMOCODE><BUYGET>6</BUYGET><EXCLUSIVE>0</EXCLUSIVE><DEPARTMENT>1</DEPARTMENT><SUBDEPARTMENT>0</SUBDEPARTMENT><CLASS>0</CLASS><SUBCLASS>0</SUBCLASS><STYLE></STYLE></RECORD></PromoMap><Promo><RECORD recno=\\\"1\\\"><PROMOCODE>31754620</PROMOCODE><STARTDATE>02/26/2018</STARTDATE><STARTTIME>00:00:00</STARTTIME><STOPDATE>11/01/2025</STOPDATE><STOPTIME>23:59:00</STOPTIME><SALEPRICE>0</SALEPRICE><DISCOUNT>0</DISCOUNT><DOLLARSOFF>0</DOLLARSOFF><GETAMT>0</GETAMT><GETQTY>0</GETQTY><BUYAMT>39900</BUYAMT><BUYQTY>0</BUYQTY><NEXTTIER>0</NEXTTIER><PROMOSCHEME>810</PROMOSCHEME><DISCOUNTFLAG>1</DISCOUNTFLAG><TAXFLAG>0</TAXFLAG><ENABLEDPROMO>0</ENABLEDPROMO><REPEATLIMIT>1</REPEATLIMIT><FINANCINGTIME>0</FINANCINGTIME><EVENTID>188959</EVENTID><LOYALTYFLAG>0</LOYALTYFLAG><CUSTOMDATA1>SFPRIORITY=2;SFDURATION=12;SFCODE=3;SFTENDERIDS=7,23</CUSTOMDATA1></RECORD><RECORD recno=\\\"2\\\"><PROMOCODE>33195300</PROMOCODE><STARTDATE>11/20/2020</STARTDATE><STARTTIME>00:00:00</STARTTIME><STOPDATE>01/31/2021</STOPDATE><STOPTIME>23:59:00</STOPTIME><SALEPRICE>0</SALEPRICE><DISCOUNT>0</DISCOUNT><DOLLARSOFF>0</DOLLARSOFF><GETAMT>0</GETAMT><GETQTY>0</GETQTY><BUYAMT>89900</BUYAMT><BUYQTY>0</BUYQTY><NEXTTIER>0</NEXTTIER><PROMOSCHEME>810</PROMOSCHEME><DISCOUNTFLAG>1</DISCOUNTFLAG><TAXFLAG>0</TAXFLAG><ENABLEDPROMO>0</ENABLEDPROMO><REPEATLIMIT>1</REPEATLIMIT><FINANCINGTIME>0</FINANCINGTIME><EVENTID>245761</EVENTID><LOYALTYFLAG>0</LOYALTYFLAG><CUSTOMDATA1>SFPRIORITY=1;SFDURATION=18;SFCODE=5;SFTENDERIDS=7,23</CUSTOMDATA1></RECORD><RECORD recno=\\\"3\\\"><PROMOCODE>33195302</PROMOCODE><STARTDATE>11/20/2020</STARTDATE><STARTTIME>00:00:00</STARTTIME><STOPDATE>01/31/2021</STOPDATE><STOPTIME>23:59:00</STOPTIME><SALEPRICE>0</SALEPRICE><DISCOUNT>0</DISCOUNT><DOLLARSOFF>0</DOLLARSOFF><GETAMT>0</GETAMT><GETQTY>0</GETQTY><BUYAMT>109900</BUYAMT><BUYQTY>0</BUYQTY><NEXTTIER>0</NEXTTIER><PROMOSCHEME>810</PROMOSCHEME><DISCOUNTFLAG>1</DISCOUNTFLAG><TAXFLAG>0</TAXFLAG><ENABLEDPROMO>0</ENABLEDPROMO><REPEATLIMIT>1</REPEATLIMIT><FINANCINGTIME>0</FINANCINGTIME><EVENTID>245761</EVENTID><LOYALTYFLAG>0</LOYALTYFLAG><CUSTOMDATA1>SFPRIORITY=0;SFDURATION=24;SFCODE=1;SFTENDERIDS=7,23</CUSTOMDATA1></RECORD></Promo><SpecialMessages><RECORD recno=\\\"1\\\"><PROMOCODE>31754620</PROMOCODE><TYPE>2</TYPE><PRIORITY>1</PRIORITY><MESSAGETEXT>{ConsentText}\\\\rThis consent is only applicable if you are using a ScoreRewards credit card account as payment on this transaction.\\\\r\\\\rYour consent is requested to receive electronic disclosures for this single transaction. \\\\rA paper copy of the disclosures will be provided for your records.\\\\r I consent to receive \\\\relectronic disclosure for this transaction only, I confirm that I can view this disclosure \\\\rand I understand that I can withdraw this consent by cancelling this transaction. If I \\\\rdecline to provide this consent by clicking the 'Decline' button below, I understand that I \\\\rwill not receive a special financing promotion on this purchase.\\\\r{/ConsentText}\\\\r\\\\r{DisclosureText}\\\\rYour purchase qualifies for the following promotion if you use a ScoreRewards credit card account as payment on this transaction:\\\\n\\\\rNo interest if paid in full within {Months/} months.\\\\r\\\\r{OnlineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be imposed from the transaction date at a\\\\r{FixedRateText} \\\\r{/FixedRateText} \\\\r{VariableRateText}variable \\\\r{/VariableRateText} APR of {Rate/}%.\\\\r{VariableRateText} APR will vary with the market based on Prime Rate.\\\\r{/VariableRateText}\\\\r{/OnlineText}\\\\rIf you select 'Accept' for a special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases.  \\\\rIf you select 'Decline', you will earn 3 reward points for each $1 of purchases on a new account opened today and 2 reward points for each $1 of purchases on an existing account.\\\\r\\\\r{OfflineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be \\\\rimposed from the transaction date at the APR that currently applies to new purchases on your account. \\\\r\\\\r{/OfflineText}\\\\r\\\\r{PinPadText}\\\\rIf I click 'Decline' below, I understand that I will not receive a special financing promotion on this purchase.\\\\r{/PinPadText}\\\\r\\\\r{ReceiptText}\\\\r~|cASpecial Financing purchases \\\\r~|cAare not eligible for extra credit \\\\r~|cApoints. \\\\rFor more information, see\\\\r~|cAthe \\\\r~|cASCORECARD PROGRAM Terms.\\\\r\\\\r{/ReceiptText}\\\\r\\\\r{/DisclosureText}\\\\r\\\\r By accepting the special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases. \\\\r\\\\r</MESSAGETEXT></RECORD><RECORD recno=\\\"2\\\"><PROMOCODE>33195300</PROMOCODE><TYPE>2</TYPE><PRIORITY>1</PRIORITY><MESSAGETEXT>{ConsentText}\\\\rThis consent is only applicable if you are using a ScoreRewards credit card account as payment on this transaction.\\\\r\\\\rYour consent is requested to receive electronic disclosures for this single transaction. \\\\rA paper copy of the disclosures will be provided for your records.\\\\r I consent to receive \\\\relectronic disclosure for this transaction only, I confirm that I can view this disclosure \\\\rand I understand that I can withdraw this consent by cancelling this transaction. If I \\\\rdecline to provide this consent by clicking the 'Decline' button below, I understand that I \\\\rwill not receive a special financing promotion on this purchase.\\\\r{/ConsentText}\\\\r\\\\r{DisclosureText}\\\\rYour purchase qualifies for the following promotion if you use a ScoreRewards credit card account as payment on this transaction:\\\\n\\\\rNo interest if paid in full within {Months/} months.\\\\r\\\\r{OnlineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be imposed from the transaction date at a\\\\r{FixedRateText} \\\\r{/FixedRateText} \\\\r{VariableRateText}variable \\\\r{/VariableRateText} APR of {Rate/}%.\\\\r{VariableRateText} APR will vary with the market based on Prime Rate.\\\\r{/VariableRateText}\\\\r{/OnlineText}\\\\rIf you select 'Accept' for a special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases.  \\\\rIf you select 'Decline', you will earn 3 reward points for each $1 of purchases on a new account opened today and 2 reward points for each $1 of purchases on an existing account.\\\\r\\\\r{OfflineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be \\\\rimposed from the transaction date at the APR that currently applies to new purchases on your account. \\\\r\\\\r{/OfflineText}\\\\r\\\\r{PinPadText}\\\\rIf I click 'Decline' below, I understand that I will not receive a special financing promotion on this purchase.\\\\r{/PinPadText}\\\\r\\\\r{ReceiptText}\\\\r~|cASpecial Financing purchases \\\\r~|cAare not eligible for extra credit \\\\r~|cApoints. \\\\rFor more information, see\\\\r~|cAthe \\\\r~|cASCORECARD PROGRAM Terms.\\\\r\\\\r{/ReceiptText}\\\\r\\\\r{/DisclosureText}\\\\r\\\\r By accepting the special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases. \\\\r\\\\r</MESSAGETEXT></RECORD><RECORD recno=\\\"3\\\"><PROMOCODE>33195302</PROMOCODE><TYPE>2</TYPE><PRIORITY>1</PRIORITY><MESSAGETEXT>{ConsentText}\\\\rThis consent is only applicable if you are using a ScoreRewards credit card account as payment on this transaction.\\\\r\\\\rYour consent is requested to receive electronic disclosures for this single transaction. \\\\rA paper copy of the disclosures will be provided for your records.\\\\r I consent to receive \\\\relectronic disclosure for this transaction only, I confirm that I can view this disclosure \\\\rand I understand that I can withdraw this consent by cancelling this transaction. If I \\\\rdecline to provide this consent by clicking the 'Decline' button below, I understand that I \\\\rwill not receive a special financing promotion on this purchase.\\\\r{/ConsentText}\\\\r\\\\r{DisclosureText}\\\\rYour purchase qualifies for the following promotion if you use a ScoreRewards credit card account as payment on this transaction:\\\\n\\\\rNo interest if paid in full within {Months/} months.\\\\r\\\\r{OnlineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be imposed from the transaction date at a\\\\r{FixedRateText} \\\\r{/FixedRateText} \\\\r{VariableRateText}variable \\\\r{/VariableRateText} APR of {Rate/}%.\\\\r{VariableRateText} APR will vary with the market based on Prime Rate.\\\\r{/VariableRateText}\\\\r{/OnlineText}\\\\rIf you select 'Accept' for a special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases.  \\\\rIf you select 'Decline', you will earn 3 reward points for each $1 of purchases on a new account opened today and 2 reward points for each $1 of purchases on an existing account.\\\\r\\\\r{OfflineText}\\\\rIf the promotional balance is not paid in full within {Months/} months, interest will be \\\\rimposed from the transaction date at the APR that currently applies to new purchases on your account. \\\\r\\\\r{/OfflineText}\\\\r\\\\r{PinPadText}\\\\rIf I click 'Decline' below, I understand that I will not receive a special financing promotion on this purchase.\\\\r{/PinPadText}\\\\r\\\\r{ReceiptText}\\\\r~|cASpecial Financing purchases \\\\r~|cAare not eligible for extra credit \\\\r~|cApoints. \\\\rFor more information, see\\\\r~|cAthe \\\\r~|cASCORECARD PROGRAM Terms.\\\\r\\\\r{/ReceiptText}\\\\r\\\\r{/DisclosureText}\\\\r\\\\r By accepting the special financing promotion at time of purchase with your ScoreRewards credit card account, you will earn 1 reward point for each $1 of purchases. \\\\r\\\\r</MESSAGETEXT></RECORD></SpecialMessages><ItemTax></ItemTax><ClassTax></ClassTax><DepartmentTax></DepartmentTax></Component><CORRELATION>XMLRequest</CORRELATION></MESSAGE>\"\n        },\n        \"pricing\": {\n          \"quantity\": 0,\n          \"everydayPrice\": 0,\n          \"referencePrice\": 0,\n          \"unitSellingPrice\": 11.99,\n          \"promptForPrice\": true\n        }\n      }\n    ]\n  }\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Glove warranties",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "[]",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "[]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "No warranties",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Add associate to warranty",
+                        "method": "get",
+                        "endpoint": "api/v4/Associate/:associateId",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"associateId\": \"1234567\",\n  \"firstName\": \"Johnny\",\n  \"lastName\": \"Cashier\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"associateId\": \"1234567\",\n  \"firstName\": \"Johnny\",\n  \"lastName\": \"Cashier\"\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"statusCode\": 422,\n  \"reasonCode\": 0,\n  \"message\": \"{\\\"type\\\":\\\"https://tools.ietf.org/html/rfc4918#section-11.2\\\",\\\"title\\\":\\\"Unprocessable Entity\\\",\\\"status\\\":422,\\\"traceId\\\":\\\"00-a85a2952160f0840aec5c9416cf654a8-231eb95a472b6a44-00\\\"}\",\n  \"originatingService\": \"PosCoordinator\"\n}",
+                                "latency": 0,
+                                "statusCode": 422,
+                                "label": "User not found",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Add warranty to transaction",
+                        "method": "post",
+                        "endpoint": "api/v4/Warranty/AddToTransaction",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610567731426,\n    \"signature\": \"zi16cORoR0nz2yRlTOFaxbG3lNMSIgiuuTkWcRkRzPg=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"1-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"warrantySellingAssociateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    },\n    {\n      \"transactionItemIdentifier\": 2,\n      \"upc\": \"887768671082\",\n      \"sku\": \"018523364\",\n      \"style\": \"WTA09RB18D125\",\n      \"description\": \"Wilson 12.5’’ A950 Series Glove\",\n      \"quantity\": 1,\n      \"returnPrice\": 89.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 89.99,\n      \"referencePrice\": 89.99,\n      \"everydayPrice\": 89.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 89.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17WILA125950MNSBLBGL?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"330-001-002-001\",\n      \"attributes\": [],\n      \"associatedItems\": [\n        {\n          \"transactionItemIdentifier\": 3,\n          \"upc\": \"400001001110\",\n          \"sku\": \"013676773\",\n          \"style\": \"NM REPL 2Y 1\",\n          \"description\": \"2 Year Replacement Plan\",\n          \"quantity\": 1,\n          \"returnPrice\": 21.99,\n          \"promptForPrice\": false,\n          \"unitPrice\": 21.99,\n          \"priceOverridden\": false,\n          \"originalUnitPrice\": 21.99,\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU2YR1RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"nonTaxable\": false,\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"appliedDiscounts\": [],\n          \"giftReceipt\": false\n        }\n      ],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 123.2,\n    \"tax\": 8.63,\n    \"grandTotal\": 131.83,\n    \"changeDue\": 0,\n    \"remainingBalance\": 131.83\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "New cash tender",
+                        "method": "post",
+                        "endpoint": "api/v4/Tender/NewCashTender",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610570304610,\n    \"signature\": \"752bb34T2u+M0VxYnYqHgLL0RAFnjVMiQ1qTHxXQaLI=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"2-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"warrantySellingAssociateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    },\n    {\n      \"transactionItemIdentifier\": 2,\n      \"upc\": \"887768671082\",\n      \"sku\": \"018523364\",\n      \"style\": \"WTA09RB18D125\",\n      \"description\": \"Wilson 12.5’’ A950 Series Glove\",\n      \"quantity\": 1,\n      \"returnPrice\": 89.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 89.99,\n      \"referencePrice\": 89.99,\n      \"everydayPrice\": 89.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 89.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17WILA125950MNSBLBGL?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"330-001-002-001\",\n      \"attributes\": [],\n      \"associatedItems\": [\n        {\n          \"transactionItemIdentifier\": 3,\n          \"upc\": \"400001001110\",\n          \"sku\": \"013676773\",\n          \"style\": \"NM REPL 2Y 1\",\n          \"description\": \"2 Year Replacement Plan\",\n          \"quantity\": 1,\n          \"returnPrice\": 21.99,\n          \"promptForPrice\": false,\n          \"unitPrice\": 21.99,\n          \"priceOverridden\": false,\n          \"originalUnitPrice\": 21.99,\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU2YR1RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"nonTaxable\": false,\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"appliedDiscounts\": [],\n          \"giftReceipt\": false\n        }\n      ],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [\n    {\n      \"tenderType\": 1,\n      \"tenderTypeDescription\": \"Cash\",\n      \"amount\": 10.83\n    }\n  ],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 123.2,\n    \"tax\": 8.63,\n    \"grandTotal\": 131.83,\n    \"changeDue\": 0,\n    \"remainingBalance\": 121.83\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610570304610,\n    \"signature\": \"752bb34T2u+M0VxYnYqHgLL0RAFnjVMiQ1qTHxXQaLI=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"2-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"warrantySellingAssociateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    },\n    {\n      \"transactionItemIdentifier\": 2,\n      \"upc\": \"887768671082\",\n      \"sku\": \"018523364\",\n      \"style\": \"WTA09RB18D125\",\n      \"description\": \"Wilson 12.5’’ A950 Series Glove\",\n      \"quantity\": 1,\n      \"returnPrice\": 89.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 89.99,\n      \"referencePrice\": 89.99,\n      \"everydayPrice\": 89.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 89.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17WILA125950MNSBLBGL?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"330-001-002-001\",\n      \"attributes\": [],\n      \"associatedItems\": [\n        {\n          \"transactionItemIdentifier\": 3,\n          \"upc\": \"400001001110\",\n          \"sku\": \"013676773\",\n          \"style\": \"NM REPL 2Y 1\",\n          \"description\": \"2 Year Replacement Plan\",\n          \"quantity\": 1,\n          \"returnPrice\": 21.99,\n          \"promptForPrice\": false,\n          \"unitPrice\": 21.99,\n          \"priceOverridden\": false,\n          \"originalUnitPrice\": 21.99,\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU2YR1RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"nonTaxable\": false,\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"appliedDiscounts\": [],\n          \"giftReceipt\": false\n        }\n      ],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [\n    {\n      \"tenderType\": 1,\n      \"tenderTypeDescription\": \"Cash\",\n      \"amount\": 10.83\n    }\n  ],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 123.2,\n    \"tax\": 8.63,\n    \"grandTotal\": 131.83,\n    \"changeDue\": 0,\n    \"remainingBalance\": 121.83\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "New credit tender",
+                        "method": "post",
+                        "endpoint": "api/v4/Tender/NewCreditTender",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610570304610,\n    \"signature\": \"752bb34T2u+M0VxYnYqHgLL0RAFnjVMiQ1qTHxXQaLI=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"2-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"warrantySellingAssociateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    },\n    {\n      \"transactionItemIdentifier\": 2,\n      \"upc\": \"887768671082\",\n      \"sku\": \"018523364\",\n      \"style\": \"WTA09RB18D125\",\n      \"description\": \"Wilson 12.5’’ A950 Series Glove\",\n      \"quantity\": 1,\n      \"returnPrice\": 89.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 89.99,\n      \"referencePrice\": 89.99,\n      \"everydayPrice\": 89.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 89.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17WILA125950MNSBLBGL?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"330-001-002-001\",\n      \"attributes\": [],\n      \"associatedItems\": [\n        {\n          \"transactionItemIdentifier\": 3,\n          \"upc\": \"400001001110\",\n          \"sku\": \"013676773\",\n          \"style\": \"NM REPL 2Y 1\",\n          \"description\": \"2 Year Replacement Plan\",\n          \"quantity\": 1,\n          \"returnPrice\": 21.99,\n          \"promptForPrice\": false,\n          \"unitPrice\": 21.99,\n          \"priceOverridden\": false,\n          \"originalUnitPrice\": 21.99,\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU2YR1RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"nonTaxable\": false,\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"appliedDiscounts\": [],\n          \"giftReceipt\": false\n        }\n      ],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [\n    {\n      \"tenderType\": 1,\n      \"tenderTypeDescription\": \"Cash\",\n      \"amount\": 10.83\n    }\n  ],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 123.2,\n    \"tax\": 8.63,\n    \"grandTotal\": 131.83,\n    \"changeDue\": 0,\n    \"remainingBalance\": 121.83\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610570304610,\n    \"signature\": \"752bb34T2u+M0VxYnYqHgLL0RAFnjVMiQ1qTHxXQaLI=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"2-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"warrantySellingAssociateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    },\n    {\n      \"transactionItemIdentifier\": 2,\n      \"upc\": \"887768671082\",\n      \"sku\": \"018523364\",\n      \"style\": \"WTA09RB18D125\",\n      \"description\": \"Wilson 12.5’’ A950 Series Glove\",\n      \"quantity\": 1,\n      \"returnPrice\": 89.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 89.99,\n      \"referencePrice\": 89.99,\n      \"everydayPrice\": 89.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 89.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17WILA125950MNSBLBGL?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"330-001-002-001\",\n      \"attributes\": [],\n      \"associatedItems\": [\n        {\n          \"transactionItemIdentifier\": 3,\n          \"upc\": \"400001001110\",\n          \"sku\": \"013676773\",\n          \"style\": \"NM REPL 2Y 1\",\n          \"description\": \"2 Year Replacement Plan\",\n          \"quantity\": 1,\n          \"returnPrice\": 21.99,\n          \"promptForPrice\": false,\n          \"unitPrice\": 21.99,\n          \"priceOverridden\": false,\n          \"originalUnitPrice\": 21.99,\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU2YR1RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"nonTaxable\": false,\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"appliedDiscounts\": [],\n          \"giftReceipt\": false\n        }\n      ],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [\n    {\n      \"tenderType\": 1,\n      \"tenderTypeDescription\": \"Cash\",\n      \"amount\": 10.83\n    }\n  ],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 123.2,\n    \"tax\": 8.63,\n    \"grandTotal\": 131.83,\n    \"changeDue\": 0,\n    \"remainingBalance\": 121.83\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"actionCode\": 412,\n  \"errorInstructions\": \"try again maybe...\",\n  \"errorMessage\": \"this aint it\"\n}",
+                                "latency": 0,
+                                "statusCode": 412,
+                                "label": "Precondition Failed",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Finalize Transaction",
+                        "method": "post",
+                        "endpoint": "api/v4/Transaction/FinalizeTransaction",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1611859867169,\n    \"signature\": \"JNF6vEM2i5WB5Axzbi5C/9VxRfOzNtvHi7zzlIt36vk=\",\n    \"transactionKey\": \"232900087930001252021\",\n    \"tenderIdentifier\": \"3-232900087930001252021\",\n    \"eReceiptKey\": \"5008793000009012521013\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 300,\n    \"transactionNumber\": 9,\n    \"startDateTime\": \"2021-01-25T19:29:11.411058Z\",\n    \"endDateTime\": \"2021-01-28T18:51:07.083965Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 2,\n    \"transactionStatusDescription\": \"Complete\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"092389109450\",\n      \"sku\": \"015591372\",\n      \"style\": \"10945Z\",\n      \"description\": \"Wild Republic Cuddlekin Red Panda Stuffed Animal\",\n      \"quantity\": 1,\n      \"returnPrice\": 14.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 14.99,\n      \"referencePrice\": 14.99,\n      \"everydayPrice\": 14.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 14.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16WLRUCKRDPND12XXGFT?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"311-004-006-001\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [\n    {\n      \"tenderType\": 1,\n      \"tenderTypeDescription\": \"Cash\",\n      \"amount\": 5\n    },\n    {\n      \"tenderType\": 1,\n      \"tenderTypeDescription\": \"Cash\",\n      \"amount\": 20\n    }\n  ],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 14.99,\n    \"tax\": 1.05,\n    \"grandTotal\": 16.04,\n    \"changeDue\": 8.96,\n    \"remainingBalance\": -8.96\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"header\": {\n    \"timestamp\": 1610570304610,\n    \"signature\": \"752bb34T2u+M0VxYnYqHgLL0RAFnjVMiQ1qTHxXQaLI=\",\n    \"transactionKey\": \"230280087928001132021\",\n    \"tenderIdentifier\": \"2-230280087928001132021\",\n    \"eReceiptKey\": \"5008792800004011321012\",\n    \"storeNumber\": 879,\n    \"registerNumber\": 280,\n    \"transactionNumber\": 4,\n    \"startDateTime\": \"2021-01-13T19:27:52.597415Z\",\n    \"timezoneOffset\": -300,\n    \"associateId\": \"1234567\",\n    \"warrantySellingAssociateId\": \"1234567\",\n    \"transactionType\": 1,\n    \"transactionTypeDescription\": \"Sale\",\n    \"transactionStatus\": 1,\n    \"transactionStatusDescription\": \"Active\"\n  },\n  \"items\": [\n    {\n      \"transactionItemIdentifier\": 1,\n      \"upc\": \"888830050118\",\n      \"sku\": \"019824277\",\n      \"style\": \"21070060016\",\n      \"description\": \"YETI 20 oz. Rambler Tumbler with MagSlider Lid\",\n      \"quantity\": 1,\n      \"returnPrice\": 11.22,\n      \"promptForPrice\": false,\n      \"unitPrice\": 11.22,\n      \"referencePrice\": 29.99,\n      \"everydayPrice\": 29.99,\n      \"priceOverridden\": true,\n      \"overridePrice\": 11.22,\n      \"originalUnitPrice\": 29.99,\n      \"variants\": {\n        \"Color\": \"Sand\",\n        \"Capacity\": \"20 oz\"\n      },\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"283-001-001-002\",\n      \"attributes\": [],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": true\n    },\n    {\n      \"transactionItemIdentifier\": 2,\n      \"upc\": \"887768671082\",\n      \"sku\": \"018523364\",\n      \"style\": \"WTA09RB18D125\",\n      \"description\": \"Wilson 12.5’’ A950 Series Glove\",\n      \"quantity\": 1,\n      \"returnPrice\": 89.99,\n      \"promptForPrice\": false,\n      \"unitPrice\": 89.99,\n      \"referencePrice\": 89.99,\n      \"everydayPrice\": 89.99,\n      \"priceOverridden\": false,\n      \"originalUnitPrice\": 89.99,\n      \"variants\": {},\n      \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17WILA125950MNSBLBGL?req-img&fmt=png&op_sharpen=1\",\n      \"nonTaxable\": false,\n      \"hierarchy\": \"330-001-002-001\",\n      \"attributes\": [],\n      \"associatedItems\": [\n        {\n          \"transactionItemIdentifier\": 3,\n          \"upc\": \"400001001110\",\n          \"sku\": \"013676773\",\n          \"style\": \"NM REPL 2Y 1\",\n          \"description\": \"2 Year Replacement Plan\",\n          \"quantity\": 1,\n          \"returnPrice\": 21.99,\n          \"promptForPrice\": false,\n          \"unitPrice\": 21.99,\n          \"priceOverridden\": false,\n          \"originalUnitPrice\": 21.99,\n          \"variants\": {},\n          \"imageUrl\": \"https://posimageservice-pcidev.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/16DSGU2YR1RPLCXTPNMW?req-img&fmt=png&op_sharpen=1\",\n          \"nonTaxable\": false,\n          \"hierarchy\": \"001-006-240-230\",\n          \"attributes\": [],\n          \"appliedDiscounts\": [],\n          \"giftReceipt\": false\n        }\n      ],\n      \"appliedDiscounts\": [],\n      \"giftReceipt\": false\n    }\n  ],\n  \"tenders\": [\n    {\n      \"tenderType\": 1,\n      \"tenderTypeDescription\": \"Cash\",\n      \"amount\": 10.83\n    }\n  ],\n  \"coupons\": [],\n  \"rewardCertificates\": [],\n  \"receiptMessages\": [],\n  \"total\": {\n    \"subTotal\": 123.2,\n    \"tax\": 8.63,\n    \"grandTotal\": 131.83,\n    \"changeDue\": 0,\n    \"remainingBalance\": 121.83\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "Unexpected error",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Origin",
+                        "value": "*"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Methods",
+                        "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Headers",
+                        "value": "*"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

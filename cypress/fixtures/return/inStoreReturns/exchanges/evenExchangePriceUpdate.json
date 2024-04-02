@@ -1,0 +1,80 @@
+{
+  "header": {
+    "timestamp": 1651517241660,
+    "signature": "aPP/ZpleXzXwZfKRotuxOH8MBm6cy3hQb20jwWMXLng=",
+    "transactionKey": "46900088818705022022",
+    "tenderIdentifier": "1-46900088818705022022",
+    "eReceiptKey": "5008881870022050222043",
+    "storeNumber": 888,
+    "registerNumber": 187,
+    "transactionNumber": 22,
+    "startDateTime": "2022-05-02T18:43:52.327524Z",
+    "transactionDate": "2022-05-02T00:00:00",
+    "timezoneOffset": -240,
+    "associateId": "1234567",
+    "transactionType": 4,
+    "transactionTypeDescription": "Return",
+    "transactionStatus": 1,
+    "transactionStatusDescription": "Active"
+  },
+  "originalSaleInformation": [
+    {
+      "returnItems": [
+        {
+          "lineNumber": 0,
+          "sequenceNumber": 0,
+          "upc": "888830050118",
+          "sku": "019824277",
+          "style": "21070060016",
+          "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -15.0,
+          "damaged": false,
+          "totalItemTax": 0.0
+        }
+      ],
+      "originalTenders": [],
+      "returnOriginationType": 1,
+      "returnSource": 2
+    }
+  ],
+  "items": [
+    {
+      "upc": "400000897646",
+      "sku": "014944965",
+      "style": "SPORTSMATTER",
+      "description": "DSG FOUNDATION",
+      "quantity": 1,
+      "returnPrice": 15.0,
+      "promptForPrice": true,
+      "unitPrice": 15.0,
+      "referencePrice": 0.0,
+      "everydayPrice": 0.0,
+      "priceOverridden": true,
+      "overridePrice": 15.0,
+      "variants": {},
+      "imageUrl": "",
+      "nonTaxable": true,
+      "totalItemTax": 0.0,
+      "hierarchy": "001-004-170-171",
+      "attributes": [
+        7
+      ],
+      "appliedDiscounts": [],
+      "transactionItemIdentifier": 1,
+      "giftReceipt": false
+    }
+  ],
+  "tenders": [],
+  "coupons": [],
+  "rewardCertificates": [],
+  "receiptMessages": [],
+  "total": {
+    "subTotal": 0.0,
+    "tax": 0.0,
+    "grandTotal": 0.0,
+    "changeDue": 0.0,
+    "remainingBalance": 0.0
+  }
+}

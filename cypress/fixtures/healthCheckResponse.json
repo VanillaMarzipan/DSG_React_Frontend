@@ -1,0 +1,1 @@
+{"status": "Healthy","Entries": {"Memory": {"Status": "Healthy","Description": "Allocated megabytes in memory: 31 mb","data": {}},"CoordinatorAlive": {"Status": "Healthy","Description": "Coordinator is alive","data": {}},"EndzoneShutdown": {"Status": 2,"Description": "Endzone is up and running normally","data": {}}}}

@@ -1,0 +1,48 @@
+{
+  "customerOrderNumber": "20220715008881900112",
+  "chain": "Store",
+  "originalSaleInfo": {
+    "register": "190",
+    "transactionNumber": 112,
+    "transactionDate": "2022-07-15T00:00:00",
+    "storeNumber": "00888",
+    "storeName": "NON-PROD STORE",
+    "tenders": [
+      {
+        "tenderType": "Cash",
+        "adyenMerchantReferenceNumber": "20220715008881900112",
+        "adyenPspNumber": "adyenPSP"
+      }
+    ],
+    "scoreCardNumber": "L01TB23YCRQF"
+  },
+  "orderUnits": [
+    {
+      "sku": "19824277",
+      "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+      "upc": "888830050118",
+      "state": "fulfilled",
+      "returnEligibility": [
+        "ELIGIBLE"
+      ],
+      "style": "21070060016",
+      "returnPrice": 35.0,
+      "taxInfo": {
+        "returnTax": 2.45,
+        "vertexProductTaxId": "75064",
+        "vertexPhysicalOriginId": "390030000",
+        "vertexDestinationId": "390030000",
+        "vertexAdminOriginId": "390030000",
+        "vertexAdminDestinationId": "390030000"
+      },
+      "lineNumber": 1,
+      "sequenceNumber": 0,
+      "release": 1,
+      "fulfillmentDetails": {
+        "distributionOrderNumber": "20220715008881900112",
+        "fulfillmentLocationId": "888",
+        "fulfillmentDate": "2022-07-15T18:29:59"
+      }
+    }
+  ]
+}

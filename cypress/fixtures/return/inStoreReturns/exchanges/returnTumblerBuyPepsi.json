@@ -1,0 +1,82 @@
+{
+  "type": "Transaction",
+  "transaction": {
+    "header": {
+      "timestamp": 1651513157003,
+      "signature": "koy4axEVX5Ic7tMFqu02kLhT2G4ootqCb4XPBTOrMO8=",
+      "transactionKey": "46820088818705022022",
+      "tenderIdentifier": "1-46820088818705022022",
+      "eReceiptKey": "5008881870017050222047",
+      "storeNumber": 888,
+      "registerNumber": 187,
+      "transactionNumber": 17,
+      "startDateTime": "2022-05-02T17:38:56.049645Z",
+      "transactionDate": "2022-05-02T00:00:00",
+      "timezoneOffset": -240,
+      "associateId": "1234567",
+      "transactionType": 4,
+      "transactionTypeDescription": "Return",
+      "transactionStatus": 1,
+      "transactionStatusDescription": "Active"
+    },
+    "originalSaleInformation": [
+      {
+        "returnItems": [
+          {
+            "lineNumber": 0,
+            "sequenceNumber": 0,
+            "upc": "888830050118",
+            "sku": "019824277",
+            "style": "21070060016",
+            "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+            "quantity": 1,
+            "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1",
+            "returnPrice": -15.0,
+            "damaged": false,
+            "totalItemTax": 0.0
+          }
+        ],
+        "originalTenders": [],
+        "returnOriginationType": 1,
+        "returnSource": 2
+      }
+    ],
+    "items": [
+      {
+        "upc": "012000001307",
+        "sku": "012588881",
+        "style": "00130Y",
+        "description": "DIET PEPSI 20 OZ",
+        "quantity": 1,
+        "returnPrice": 2.29,
+        "promptForPrice": false,
+        "unitPrice": 2.29,
+        "referencePrice": 2.29,
+        "everydayPrice": 2.29,
+        "priceOverridden": false,
+        "originalUnitPrice": 2.29,
+        "variants": {},
+        "imageUrl": "",
+        "nonTaxable": false,
+        "totalItemTax": 0.16,
+        "hierarchy": "311-002-003-003",
+        "attributes": [],
+        "appliedDiscounts": [],
+        "transactionItemIdentifier": 1,
+        "giftReceipt": false
+      }
+    ],
+    "tenders": [],
+    "coupons": [],
+    "rewardCertificates": [],
+    "receiptMessages": [],
+    "total": {
+      "subTotal": -12.71,
+      "tax": 0.16,
+      "grandTotal": -12.55,
+      "changeDue": 0.0,
+      "remainingBalance": -12.55
+    }
+  },
+  "upc": "012000001307"
+}

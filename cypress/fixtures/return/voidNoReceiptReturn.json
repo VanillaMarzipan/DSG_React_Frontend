@@ -1,0 +1,67 @@
+{
+  "header": {
+    "timestamp": 1645815657894,
+    "signature": "kEIOEtEVR7s18A7eBOOZrJ81UkuKqqS3YgU1ogx9Nrg=",
+    "transactionKey": "33290088810602252022",
+    "tenderIdentifier": "1-33290088810602252022",
+    "eReceiptKey": "5008881061462022522045",
+    "storeNumber": 888,
+    "registerNumber": 106,
+    "transactionNumber": 1462,
+    "startDateTime": "2022-02-25T19:00:38.672623Z",
+    "endDateTime": "2022-02-25T19:00:57.8860481Z",
+    "timezoneOffset": -300,
+    "associateId": "1234567",
+    "transactionType": 4,
+    "transactionTypeDescription": "Return",
+    "transactionStatus": 3,
+    "transactionStatusDescription": "Void"
+  },
+  "originalSaleInformation": [
+    {
+      "returnItems": [
+        {
+          "lineNumber": 0,
+          "sequenceNumber": 0,
+          "upc": "888830050118",
+          "sku": "019824277",
+          "style": "21070060016",
+          "description": "YETI 20 oz. Rambler Tumbler with MagSlider Lid",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/17YETARMBLR20WMGSODR_Sand?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -22.49,
+          "damaged": false,
+          "totalItemTax": 0.0
+        },
+        {
+          "lineNumber": 1,
+          "sequenceNumber": 0,
+          "upc": "083321578120",
+          "sku": "019455863",
+          "style": "DICH120BRNC",
+          "description": "Rawlings 12’’ Youth Highlight Series Glove 2019",
+          "quantity": 1,
+          "imageUrl": "https://posimageservice.appssec.an01.pcf.dcsg.com/api/v1/Image/RemoteImage/18RAWY12HGHLGHTBRBGL_Brown?req-img&fmt=png&op_sharpen=1",
+          "returnPrice": -35.24,
+          "damaged": false,
+          "totalItemTax": 0.0
+        }
+      ],
+      "originalTenders": [],
+      "returnOriginationType": 1,
+      "returnSource": 2
+    }
+  ],
+  "items": [],
+  "tenders": [],
+  "coupons": [],
+  "rewardCertificates": [],
+  "receiptMessages": [],
+  "total": {
+    "subTotal": -57.73,
+    "tax": 0.0,
+    "grandTotal": -57.73,
+    "changeDue": 0.0,
+    "remainingBalance": -57.73
+  }
+}

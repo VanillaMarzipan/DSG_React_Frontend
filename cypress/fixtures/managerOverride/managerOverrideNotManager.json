@@ -1,0 +1,9 @@
+{
+  "body": {
+    "reasonCode": 186,
+    "message": "Authentication failed: Invalid credentials",
+    "originatingService": "Coordinator",
+    "statusCode": 422
+  },
+  "statusCode": 422
+}

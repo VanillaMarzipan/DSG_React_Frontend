@@ -1,0 +1,11 @@
+applications:
+- name: ReactPOS
+  disk_quota: 256M
+  memory: 256M
+  instances: #{AppInstances}#
+  stack: cflinuxfs3
+  routes:
+   - route: #{AppRoute}#
+   - route: #{AppRoute2}#
+  buildpacks: 
+   - nginx_buildpack

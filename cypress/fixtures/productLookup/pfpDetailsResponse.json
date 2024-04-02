@@ -1,0 +1,36 @@
+{
+  "name": "CONTO CUSHN CARYNG STRAP BLACK",
+  "styleVariants": [
+    {
+      "color": "NO COLOR",
+      "imageUrl": "",
+      "sku": 10466813,
+      "specificVariants": [
+        {
+          "name": "Color",
+          "sort": 0,
+          "value": "NO COLOR"
+        },
+        {
+          "name": "Dimension",
+          "sort": 0,
+          "value": "NO DIMENSION"
+        },
+        {
+          "name": "Size",
+          "sort": 0,
+          "value": "NO SIZE"
+        }
+      ],
+      "styleNumber": "1020",
+      "styleDescription": "",
+      "upc": [
+        "018614010209"
+      ],
+      "onlineInventory": 0,
+      "nearbyStoreInventory": 0,
+      "onHandInventory": 0
+    }
+  ],
+  "webId": ""
+}
